@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quizstar/resultpage.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+
 class getjson extends StatelessWidget {
   // accept the langname as a parameter
 
@@ -327,7 +328,25 @@ class _quizpageState extends State<quizpage> {
             Expanded(
               flex: 1,
               child: Container(
-                color: Colors.deepPurpleAccent,
+                // color: Colors.deepPurpleAccent,
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      stops: [
+                        0.1,
+                        0.4,
+                        0.6,
+                        0.9,
+                      ],
+                      colors: [
+                        Colors.yellow,
+                        Colors.red,
+                        Colors.indigo,
+                        Colors.teal,
+                      ],
+                    )
+                ),
                 alignment: Alignment.bottomCenter,
                 child: Container(
                   child: Text(
@@ -336,6 +355,7 @@ class _quizpageState extends State<quizpage> {
                       fontSize: 40.0,
                       fontWeight: FontWeight.w700,
                       fontFamily: 'Times New Roman',
+                      // color: Colors.white
                     ),
                   ),
 
@@ -355,6 +375,7 @@ class _quizpageState extends State<quizpage> {
                 padding: EdgeInsets.all(15.0),
                 alignment: Alignment.center,
                 color: Colors.yellowAccent[200],
+
                 child: Text(
                   mydata[0][i.toString()],
                   style: TextStyle(
