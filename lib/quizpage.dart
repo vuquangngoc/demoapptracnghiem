@@ -374,8 +374,17 @@ class _quizpageState extends State<quizpage> {
               child: Container(
                 padding: EdgeInsets.all(15.0),
                 alignment: Alignment.center,
-                color: Colors.yellowAccent[200],
-
+                // color: Colors.yellowAccent[200],
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      colors: [
+                        Colors.yellowAccent,
+                        Colors.deepOrange,
+                      ],
+                    )
+                ),
                 child: Text(
                   mydata[0][i.toString()],
                   style: TextStyle(
