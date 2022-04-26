@@ -1,0 +1,727 @@
+[
+    { "0": "Kết luận nào sau đây về tính đơn điệu của hàm số y = (x+3)/(x-3) là đúng",
+        "1": "Tìm khoảng nghịch biến của hàm số sau: y = -x⁴ - 2.x²",
+        "2": "Tìm m để hàm số \n y= (x² -2mx +m)/(x -1) \ntăng trên từng khoảng xác định của",
+        "3": "Tìm giá trị lớn nhất của m để hàm số y = x³ + 3x² - mx - 4 đồng biến trên khoảng R?",
+        "4": "Đồ thị hàm số\n y= (x² -x +3)/(x² -4mx -3) \ncó tất cả bao nhiêu đường tiệm cận?",
+        "5": "Cho hàm số y = x³ - 3x² + 1. Tích của giá trị cực đại và cực tiểu của hàm số bằng bao nhiêu?",
+        "6": "Tìm m để hàm số y = -x³ + (2m - 1)x² + (m - 2)x - 2 có cực đại và cực tiểu",
+        "7": "Tìm m để hàm số y = -x⁴ +2(2m - 1)x³ + 3 có đúng một cực trị",
+        "8": "Tìm m để hàm số y = x³ - 2mx² + m²x - 2 đạt cực tiểu tại x = 1",
+        "9": "Đồ thị hàm số y = x³ - 3x² - 9x + 2 có hai cực trị nằm trên đường thẳng song song với đường thẳng nào dưới đây?",
+        "10": "Gọi x1,x2 là hai điểm cực trị của y = x³ - 3mx² + 3(m² - 1)x m³ + m .\n Tìm m để x₁² + x₂² - x₁x₂ = 7",
+        "11": "Giá trị lớn nhất của hàm số \n y= 1/3 cos³x - 2cos²x + 3 cosx + 1 , x ∈ [0; π/2] là ",
+        "12": "Giá trị nhỏ nhất của hàm số \n y= √(1+x) + √(3-x) - √(1+x).√(3-x) là",
+        "13": "Tìm m để giá trị nhỏ nhất của \n y= (x- m²+ m) / (x+1) \n trên đoạn [0; 1] bằng -2",
+        "14": "Cho hàm số y = x³ - 3x² + 1. Ba tiếp tuyến tại giao điểm của đồ thị hàm số với đường thẳng y = x - 2 có tổng các hệ số góc là:",
+        "15": "Tiếp tuyến tại điểm cực tiểu của đồ thị hàm số \n y= 1/3 x³ - 2x² + 3x - 5",
+        "16": "Cho hàm số y = x³ + 3x² + 3x + 1 có đồ thị (C) . Phương trình tiếp tuyến của (C) tại giao điểm của (C) với trục tung là:",
+        "17": "Tìm m để y = x⁴ - 2mx² + m³ - m² tiếp xúc với trục hoành tại hai điểm",
+        "18": "Người ta cần làm một cái thùng hình trụ có thể tích 192π(m³). Chất liệu để làm mặt bên thùng có giá là 3$/ m² , và chất liệu để làm đáy thùng có giá là 9$/m² . Bán kính của thùng để tốn ít tiền nhất là:",
+        "19": "Tìm m để y = x³ - 3x² +mx - 1 có hai điểm cực trị tại x1, x2 thỏa mãn \n x₁² + x₂² = 3",
+        "20": "Tìm m để hàm số y = (1/3)x³ - x² - mx + 1 luôn đồng biến trên từng khoảng xác định của nó",
+        "21": "Tìm m để phương trình |x³ + 3x² - 9x + 2| = m có 6 nghiệm phân biệt",
+        "22": "Tìm m để hàm số y = -x³ + (2m + 1)x² - (m² - 3m +2)x - 4 có cực đại, cực tiểu nằm về hai phía so với trục tung",
+        "23": "Tìm m để hàm số y = x³ - 3mx² + 12x - 2 nghịch biến trên khoảng (1; 4)",
+        "24": "Đồ thị hàm số\n y = √(x² + x) - √(x² + 1)\ncó đường tiệm cận ngang có phương trình là",
+        "25": "Hệ số góc của tiếp tuyến của đồ thị hàm số\ny = (x-`ch1) / (x+1)\ntại giao điểm của đồ thị hàm số với trục tung bằng",
+        "26": "Cho đồ thị hàm số y = x³ - 2x² + 2x . Gọi x1, x2 là hoành độ các điểm M, N trên (C) mà tại đó tiếp tuyến của (C) vuông góc với đường thẳng y = -x + 2016. Khi đó x1 + x2 bằng:",
+        "27": "Cho hàm số y = x³ - 3x + 2 (C) . Tìm phương trình tiếp tuyến của (C), biết tiếp tuyến đi qua điểm A(-1; 0).",
+        "28": "Tìm m để đồ thị hàm số y = x³ + 3x² + mx + 2m cắt đường thẳng y = -x + 2 tại 3 điểm.",
+        "29": "Tìm m để đồ thị hàm số\ny = (x+m) / (mx+1)\ncó đường tiệm cận ngang",
+        "30": "Hàm số y = (x - 1).e^x với x ∈ [-1; 1] đạt giá trị lớn nhất tại x bằng",
+        "31": "Hàm số\ny = x + √(4 - x²) với x ∈ [-2; 1/2]\n đạt giá trị lớn nhất tại x bằng",
+        "32": "Tìm m để đồ thị hàm số y = x⁴ - 2m²x² + 1 có ba cực trị tạo thành tam giác vuông.",
+        "33": "Tính giá trị biểu thức log₃5.log₄9.log₅2",
+        "34": "Tìm đạo hàm của hàm số y = (√3)^x²",
+        "35": "Nếu 4^x - 4^x - 1 = 24 thì (2x)^x bằng",
+        "36": "Giải phương trình log₃x + log₉x + log₈₁x = 7",
+        "37": "Tìm miền xác định của hàm số\n y = 1/ ( ln(ln x)-1)",
+        "38": "Ngày 15 tháng 2 năm 2010 ông A gửi vào ngân hàng 500 triệu đồng với hình thức lãi kép và lãi suất 10,3% một năm. Tại thời điểm đó ông A dự tính sẽ rút hết tiền ra vào 15 tháng 2 năm 2013. Nếu trong khoảng thời gian đó lãi suất không thay đổi thì số tiền mà ông A rút được là bao nhiêu? Làm tròn kết quả đến hàng nghìn.",
+        "39": "Tìm giá trị lớn nhất của hàm số y = x^2.e^(-x) trên đoạn [-1; 4]",
+        "40": "Tìm tập nghiệm của phương trình log(x + 3) + log(x - 1) = log(x² - 2x -3)",
+        "41": "Điện tích (tính bằng culông) được tích trong các tấm của một tụ điện bị rò sau thời gian t giây được xác đinh bởi công thức Q(t) = Q₀.(1,122)-¹ trong đó Q₀ là điện tích ban đầu. Sau bao lâu thì điện tích trong tụ còn một nửa (làm tròn kết quả đến hàng đơn vị)?",
+        "42": "Tìm tập nghiệm của bất phương trình\n log√(x² - 3x + 4) - log√(x + 1) > 0",
+        "43": "Tìm tập nghiệm của bất phương trình \n (1/2) ^ (log₃(x²-2x-3)) > 1",
+        "44": "Tính ∫(3 ln²x - 4 lnx + 2) dx/x",
+        "45": "Hàm số F(x) = ln|sinx - 3cosx| là một nguyên hàm của hàm số nào trong các hàm số sau đây?",
+        "46": "Tính ∫x².sinxdx",
+        "47": " Cho I = ₁∫²2x√(x²-1) dx  .Khẳng định nào sai?",
+        "48": "Biến đổi₀∫³(x/(1 + √(1+x)) dx thành ₁∫²f(t) dt , với t = √(1+x) \nBài tập trắc nghiệm Giải tích 12 | Câu hỏi trắc nghiệm Giải tích 12\nKhi đó, f(t) là hàm nào trong các hàm số sau?",
+        "49": "Diện tích hình giới hạn bởi đường cong y = x² + 1 tiếp tuyến với đường cong này tại M(2; 5) và trục là:",
+        "50": "Thể tích vật tròn xoay khi quay hình phẳng giới hạn bởi các đường y = 4/x, y = 0, x = 1, x = 4 quanh trục Ox là:",
+        "51": "Thể tích vật tròn xoay khi quay hình phẳng giới hạn bởi các đường\ny = x^(1/2).e^(x/2) , x=1, x=2, y=0  \nquanh trục Ox là:",
+        "52": "Phần thực và phần ảo của số phức z thỏa mãn z− = (1 + 2i)² + (1 - 2i)³ là",
+        "53": "Thực hiện phép tính T = 3i(5 + 2i) + (2 - 5i)(3 + 7i) ta có:",
+        "54": "Thực hiện phép tính \n T = (2-3i)/(1-2i) - (3+5i)/(2+i) + 1/(-2-)i ta có :",
+        "55": "Các số thực x, y thỏa mãn: (x + 2y) + (2x - y)i = 6 + 7i. Giá trị biểu thức T = x + y bằng:",
+        "56": " Phương trình z² - 8z + 20 = 0 có hai nghiệm là",
+        "57": "Số phức z = a + bi có phần thực, phần ảo là các số nguyên và thỏa mãn: z³ = 2 + 11i. Giá trị biểu thức T = a + b là",
+        "58": "Tập hợp các điểm biểu diễn số phức z thỏa mãn |i(z - 1) + 2| = |3 - 4i| là",
+        "59": "Cho số phức z thỏa mãn |z− + 1 - i| = |z|. Giá trị nhỏ nhất của môđun của z là",
+        "60": "Một hình chóp có 40 cạnh. Hình chóp đó có bao nhiêu mặt?",
+        "61": "Trong số các mệnh đề sau đây, mệnh đề nào đúng?",
+        "62": "Trong các mệnh đề sau đây, mệnh đề nào sai?",
+        "63": "Trong các mệnh đề sau đây, mệnh đề nào đúng?",
+        "64": "Cho hình chóp tứ giác đều S.ABCD, cạnh đáy là a, SA = 2a. Thể tích khối chóp là:",
+        "65": "Cho hình chóp S.ABCD có đáy là hình vuông cạnh a. Mặt bên (SAD) là tam giác cân tại đỉnh S và nằm trong mặt phẳng vuông góc với đáy. Góc giữa cạnh bên SB và mặt đáy là 60o . Tính thể tích khối chóp S.ABCD",
+        "66": "Cho lăng trụ ABC.A'B'C' có độ dài cạnh bên bằng 2a, đáy ABC là tam giác đều cạnh a và hình chiếu vuông góc của đỉnh A’ trên mặt phẳng (ABC) là trung điểm cạnh BC. Thể tích khối chóp A.BCC’B’ là:",
+        "67": "Cho hình chóp S.ABC có đáy ABC là tam giác vuông tại đỉnh A và AB = AC, SA = SB = SC = 3a. Góc giữa mặt phẳng (SAB) và mặt phẳng (ABC) là 60o . Gọi G là trọng tâm của tam giác SAB. Thể tích khối chóp S.GBC là:",
+        "68": "Cho hình chóp S.ABCD có SA ⊥ (ABCD) , đáy ABCD là hình chữ nhật. SA = 2AD = 2a . Góc giữa mp(SBC) và mặt đáy là 45o . Gọi M là trung điểm của BC. Khoảng cách từ M đến mp(SBD) là:",
+        "69": "Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi M, N lần lượt là trung điểm của SA, SC. Biết thể tích của khối chóp S.BMN là a3 . Tính thể tích khối chóp S.ABCD",
+        "70": "Cho hình chóp S.ABC có ∠ASB = ∠BSC = ∠CSA = 60o, SA = 2SB = 3SC = 3a Thể tích khối chóp S.ABC là :",
+        "71": "Cho hình chóp S.ABC có hình chiếu vuông góc của S lên mặt đáy là tâm O của đường tròn ngoại tiếp tam giác ABC. Biết SB = a và góc giữa cạnh bên SA và mặt đáy bằng 60o . Diện tích của mặt cầu ngoại tiếp hình chóp S.ABC là :",
+        "72": "Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật, SA = AB = 2AD = 2a. Hai mặt phẳng (SAB) và (SAD) cùng vuông góc với đáy. Bán kính của mặt cầu ngoại tâm B cắt SC theo một dây có độ dài 2a/3 là :",
+        "73": "Hình nón có thiết diện cắt bởi mặt phẳng qua trục là một tam giác vuông và có diện tích xung quanh là √2 . Độ dài đường cao của hình nón là :",
+        "74": "Bạn Nam cao 1,8m tham gia trò chơi nhà bóng. Bạn Nam phải đứng thẳng trong quả bóng hình cầu và lăn trên cỏ. Để Nam có thể đứng được trong quả bóng thì Nam phải chọn quả bóng có thể tích ít nhất là bao nhiêu trong các kết quả sau:",
+        "75": "Cho hình trụ có thể tích bằng 2π và có thiết diện cắt bởi mặt phẳng qua trục là hình vuông. Diện tích xung quanh của khối trụ là:",
+        "76": "Cho hình lăng trụ tam giác đều ABC.A'B'C' có AB = a , góc giữa A’B và mặt phẳng (ABC) là 60o . Khối trụ (H) là khối trụ có hai đường tròn đáy lần lượt là đường tròn nội tiếp các tam giác ABC, A’B’C’. Tính thể tích khối trụ (H)",
+        "77": "Cho hình nón đỉnh I và đường tròn đáy tâm O. Bán kính đáy bằng chiều cao của hình nón. Giả sử khoảng cách từ trung điểm của IO tới một đường sinh bất kì là √2 . Hai điểm A, B nằm trên đường tròn tâm O sao cho AB = 1/2. Tính thể tích khối tứ diện IABO",
+        "78": "Có ba quả bóng đá hình cầu có cùng bán kính r được xếp tiếp xúc với nhau từng đôi một. Trong các rổ hình trụ có chiều cao 2r và bán kính R, hỏi bán kính R nhỏ nhất là bao nhiêu để hình trụ có thể chứa được cả ba quả bóng đó?",
+        "79": "Trong không gian Oxyz, cho ba điểm A(1; 2; 0), B(-2; 1; 3), C(7; -3; -6). Viết phương trình tham số của đường thẳng d đi qua trọng tâm G của tam giác ABC, đồng thời d song song với hai mặt phẳng (Oxy) và (Oxz)",
+        "80": "Trong không gian Oxyz, cho ba điểm A(1; -2; 3), B(0; 1; 5), C(4; -1; 7). Gọi M là trung điểm của BC. Viết phương trình tham số của đường thẳng AM",
+        "81": "Trong không gian Oxyz, viết phương trình tham số của đường thẳng d đi qua điểm M(1;2;-3) và d vuông góc với mặt phẳng (P): 3x + y + 1 = 0",
+        "82": "Trong không gian Oxyz, viết phương trình của mặt phẳng (P) chứa hai đường thẳng sau: d1: x = 3 + 4t, y = 1 - 2t, z = 3 + 6t và d2: x/2 = y/-1 = (z+1)/3",
+        "83": "Trong không gian Oxyz, cho tứ diện ABCD với A(2;-4;6) và ba điểm B, C, D cùng thuộc mặt phẳng (Oyz). Gọi M, N, P lần lượt là trung điểm của AB, AC, AD. Lập phương trình mặt phẳng (MNP)",
+        "84": "Trong không gian Oxyz, cho đường thẳng d và mặt phẳng (P) lần lượt có phương trình là:\n d: (x-1)/2 = (y+2)/1 = (z-3)/-3 \n (P): 2x + y - 3z - 4 = 0. Trong những khẳng định dưới đây, khẳng định nào đúng?",
+        "85": "Trong không gian Oxyz, cho tứ diện ABCD với A(2;-4;6), B(1;1;1), C(0;3;0), D(0;0;3). Viết phương trình tham số của đường thẳng d chứa đường cao AH của tứ diện ABCD",
+        "86": "Trong không gian Oxyz, cho hai đường thẳng cắt nhau:d1: x = 1 + t, y = 1, z = 1 - t, d2: x = -t, y = 2 + t, z = 1. Viết phương trình của mặt phẳng (P) chứa hai đường thẳng d1, d2",
+        "87": "Trong không gian Oxyz, cho hai mặt phẳng (P) và (Q) lần lượt có phương trình là mx + y - 3z + 1 = 0; 4x - 2y + (n² + n)z - n = 0, trong đó m và n là hai tham số. Với những giá trị nào của m và n thì hai mặt phẳng (P) và (Q) song song với nhau",
+        "88": "Trong không gian Oxyz, cho đường thẳng\n d:(x-1)/2=(y-3)/4=z/1\nvà mặt phẳng (P): 2x - y + 2z = 0. Cho mặt cầu (S) có tâm I thuộc đường thẳng d, có bán kính bằng 1 và tiếp xúc với mặt phẳng (P). Tọa độ tất cả các điểm I có thể là:",
+        "89": "Trong không gian Oxyz, lập phương trình của mặt cầu (S) đi qua 3 điểm O, A(2;0;0), B(0;2;0) và tâm thuộc mặt phẳng (P): x + y + z - 3 = 0",
+        "90": "Trong không gian Oxyz, cho bốn điểm A(1;0;0), B(0;-2;0), C(0;0;2), M(1;1;4). Tính khoảng cách từ M đến mặt phẳng (ABC)",
+        "91": "Trong không gian Oxyz, cho hai mặt phẳng (P): 2x - y - 2z + 7 = 0, (Q): 2x - y - 2z + 1 = 0. Biết rằng mặt cầu (S) tiếp xúc với cả hai mặt phẳng (P) và (Q). Hỏi diện tích của mặt cầu (S) là bao nhiêu?",
+        "92": "Trong không gian Oxyz, cho hai đường thẳng:\n d1: (x-2)/3=(y+2)/4=(z-1)/1 \nvà d2: (x-7)/-2=(y-3)/-4=(z-9)/2\nCho M là một điểm di động trên d1 , N là một điểm di động trên d2 . Khoảng cách nhỏ nhất của đoạn thẳng MN là:",
+        "93": "Trong không gian Oxyz, cho hai điểm A(3;2;1), M(3;0;0) và mặt phẳng (P) có phương trình là: x + y + z - 3 = 0 . Viết phương trình của đường thẳng d đi qua điểm M, nằm trong mặt phẳng (P) sao cho khoảng cách từ A đến đường thẳng d nhỏ nhất",
+        "94": "Cho một đồ chơi hình khối chóp S.ABC có SA, SB, SC đôi một vuông góc với nhau và SA = SB = SC = 6cm. Trong tất cả các khối cầu có thể chứa đồ chơi đó thì khối cầu có bán kính nhỏ nhất là:",
+        "95": "Trong không gian Oxyz, cho các điểm A(1;1;0), B(0;1;1). Tìm trên mặt phẳng xOz tọa độ điểm C để OABC là một tứ diện đều",
+        "96": "Trong không gian Oxyz, cho mặt cầu (S) có phương trình x2 + y2 + z2 = 1. Viết phương trình mặt phẳng (P) đi qua\n M(0;√3/2;1/2 \nvà tiếp xúc với (S)",
+        "97": "Trong không gian Oxyz, cho đường thẳng d đi qua điểm M(1;-2;-6) và vuông góc với mặt phẳng (P): x + 2y + 6z - 3 = 0. Trong những khẳng định dưới đây, khẳng định nào đúng?",
+        "98": "Cho đường thẳng d có phương trình: x = 2t, y = 1 - t, z = 3 + t và mặt phẳng (P) có phương trình: x + y + z - 10 = 0 . Trong những khẳng định dưới đây, khẳng định nào đúng?",
+        "99": "Trong không gian Oxyz, cho đường thẳng d là giao tuyến của hai mặt phẳng (P): 2x + y + z + 5 = 0, (Q): 2x - z + 3 = 0 . Phương trình tham số đường thẳng d là:",
+        "100": "Trong không gian Oxyz, khoảng cách từ M(6;2;8) đến trục Oy bằng:"
+    },
+    {
+        "0": {
+        "a": "Hàm số đồng biến trên các khoảng (-∞; 3) và (3; +∞) .",
+        "b": "Hàm số luôn đồng biến trên R\\{3}",
+        "c": "Hàm số nghịch biến trên các khoảng (-∞; 3) và (3; +∞)",
+        "d": "Hàm số luôn nghịch biến trên R\\{3}"
+    },
+
+        "1": {
+            "a": "(-∞; 0)",
+            "b": "(0; +∞)",
+            "c": "R",
+            "d": "(1; +∞)"
+        },
+        "2": {
+            "a": "m ≥ 1",
+            "b": "m ≠ 1",
+            "c": "m > 1",
+            "d": "m ≤ 1"
+        },
+        "3": {
+            "a": "m = -3",
+            "b": "m < -3",
+            "c": "m = 3",
+            "d": "m ≥ 3"
+        },
+        "4": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "5": {
+            "a": "-6",
+            "b": "-3",
+            "c": "3",
+            "d": "4"
+        },
+        "6": {
+            "a": "m∈(-∞;-1)",
+            "b": "m∈(-1;5/4)",
+            "c": "m∈(-∞;-1)∪(5/4;+∞)",
+            "d": "m∈(-1;+∞)"
+        },
+        "7": {
+            "a": "m > 1/2",
+            "b": "m ≥ 1/2",
+            "c": "m ≤ 1/2",
+            "d": "m < 1/2"
+        },
+        "8": {
+            "a": "m = -1",
+            "b": "m = 1",
+            "c": "m = 2",
+            "d": "m = -2"
+        },
+        "9": {
+            "a": "y = -8x - 1",
+            "b": "y = -8x + 1",
+            "c": "y = -24x - 3",
+            "d": "y = -x/8 + 1"
+        },
+        "10": {
+            "a": "m = 0",
+            "b": "m = ±9/2",
+            "c": "m = ±1/2",
+            "d": "m = ±2"
+        },
+        "11": {
+            "a": "1",
+            "b": "7/3",
+            "c": "2",
+            "d": "1/3"
+        },"12": {
+        "a": "2√ - 2",
+        "b": "9/10",
+        "c": "2√2 - 1",
+        "d": "1 - 2√2"
+    },"13": {
+        "a": "m=1 hoặc m=2",
+        "b": "m=1 hoặc m=-2",
+        "c": "m=-1 hoặc m=-2",
+        "d": "m=-1 hoặc m=2"
+    },"14": {
+        "a": "15",
+        "b": "33",
+        "c": "36",
+        "d": "17"
+    },"15": {
+        "a": "song song với đường thẳng x = 1",
+        "b": "song song với trục hoành",
+        "c": "có hệ số góc dương",
+        "d": "có hệ số góc bằng -1"
+    },"16": {
+        "a": "y = 8x + 1",
+        "b": "y = 3x + 1",
+        "c": "y = -8x + 1",
+        "d": "y = 3x -1"
+    },"17": {
+        "a": "m = 2",
+        "b": "m = -2",
+        "c": "m = 1",
+        "d": "Cả A và C đúng"
+    },"18": {
+        "a": "4m",
+        "b": "6m",
+        "c": "8m",
+        "d": "∛32 m"
+    },"19": {
+        "a": "m = 3/2",
+        "b": "m = 1",
+        "c": "m = -2",
+        "d": "m = 1/2"
+    },"20": {
+        "a": "m < - 1",
+        "b": "m > -1",
+        "c": "m ≤ -1",
+        "d": "m > -1"
+    },"21": {
+        "a": "0 < m < 3",
+        "b": "m = 3",
+        "c": "3 < m < 29",
+        "d": "m > -3"
+    },"22": {
+        "a": "m ∈ (1; 2)",
+        "b": "m ∈ [1; 2]",
+        "c": "m ∈ (- ∞; 1) ∪ (2; +∞)",
+        "d": "m ∈ (- ∞; 1] ∪ [2; +∞)"
+    },"23": {
+        "a": "m ≥ 5/2",
+        "b": "m ≤ 5/2",
+        "c": "m ≤ 2",
+        "d": "Đáp án khác"
+    },"24": {
+        "a": "y = 1",
+        "b": "y = 0",
+        "c": "y = 1/2",
+        "d": "y = ±1/2"
+    },"25": {
+        "a": "–2",
+        "b": "2",
+        "c": "1",
+        "d": "–1"
+    },"26": {
+        "a": "4/3",
+        "b": "-4/3",
+        "c": "1/3",
+        "d": "-1"
+    },"27": {
+        "a": "y = 0",
+        "b": "y = x + 1",
+        "c": "y = x - 1",
+        "d": "y = 2"
+    },"28": {
+        "a": "m > 5/4",
+        "b": "m > -1",
+        "c": "m < 5/4 và m ≠ -1",
+        "d": "-1 < m < 5/4"
+    },"29": {
+        "a": "m ≠ 0",
+        "b": "m ≠ ±1",
+        "c": "m ≠ 1",
+        "d": "Cả A và B."
+    },"30": {
+        "a": "1",
+        "b": "-1",
+        "c": "0",
+        "d": "1/2"
+    },"31": {
+        "a": "1",
+        "b": "1/2",
+        "c": "-2",
+        "d": "-1"
+    },"32": {
+        "a": "m = ± 1",
+        "b": "m = ± 2",
+        "c": "m = 3",
+        "d": "Đáp án khác"
+    },"33": {
+        "a": "1/2",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+    },"34": {
+        "a": "y' = x.3^x.ln3",
+        "b": "y' = x.3^(x²/2).ln3",
+        "c": "y' = 1/2.3^(x²/2).ln3",
+        "d": "y' = 1/2.3^x.ln3"
+    },"35": {
+        "a": "5√5",
+        "b": "25",
+        "c": "25√5",
+        "d": "125"
+    },"36": {
+        "a": "x = 27",
+        "b": "x = 81",
+        "c": "x = 729",
+        "d": "x = 243"
+    },"37": {
+        "a": "D = (1; +∞)\\{e^e}",
+        "b": "D = (0; +∞)\\{e}",
+        "c": "D = (e^e; +∞)",
+        "d": "D = (1; +∞)\\{e}"
+    },"38": {
+        "a": "608305000 đồng",
+        "b": "665500000 đồng",
+        "c": "670960000 đồng",
+        "d": "740069000 đồng"
+    },"39": {
+        "a": "e",
+        "b": "4/e²",
+        "c": "16/e⁴",
+        "d": "4.e²"
+    },"40": {
+        "a": "∅",
+        "b": "{0}",
+        "c": "R",
+        "d": "(1; +∞)"
+    },"41": {
+        "a": "5 giây",
+        "b": "6 giây",
+        "c": "8 giây",
+        "d": "10 giây"
+    },"42": {
+        "a": "(1; 3)",
+        "b": "(-1; 3)",
+        "c": "(-1; 1) ∪ (3; +∞)",
+        "d": "(-∞; 1) ∪ (3; +∞)"
+    },"43": {
+        "a": "(1 - √5; 1 + √5)",
+        "b": "(1 - √5; -1) ∪ (3; 1 + √5)",
+        "c": "(-1; -√5; -1) ∪ (3; 1 + √5)",
+        "d": "(-∞; 1 - √5) ∪ (1 + √5; +∞)"
+    },"44": {
+        "a": "ln³x - 2ln²x + 2lnx + C",
+        "b": "-ln³x - 2ln²x + 2lnx + C",
+        "c": "ln³x + 2ln²x + 2lnx + C",
+        "d": "ln³x - 2ln²x - 2lnx + C"
+    },"45": {
+        "a": "f(x) = (cos x + 3sin x) / (sin x - 3cos x)",
+        "b": "f(x) = cos x + 3sin x",
+        "c": "f(x) = (-cos x - 3sin x) / (sin x - 3cos x)",
+        "d": "f(x) = (sin x - 3cos x) / (cos x + 3sin x)"
+    },"46": {
+        "a": "-x²cosx + 2x.sinx - 2cosx + C",
+        "b": "x²sinx + 2x.cosx - 2sinx + C",
+        "c": "-x²cosx + 2x.sinx + 2cosx + C",
+        "d": "2x.cosx + sinx + C"
+    },"47": {
+        "a": "I = 2/3 u√u₁|²",
+        "b": "I = ₀∫³√u du",
+        "c": "I = 2√3",
+        "d": "I = 2/3 u^(3/2) ₀|³"
+    },"48": {
+        "a": "f(t) = 2t² - 2t",
+        "b": "f(t) = t² + t",
+        "c": "f(t) = t² - t",
+        "d": "f(t) = 2t² + 2t"
+    },"49": {
+        "a": "0",
+        "b":"-8/3",
+        "c": "8/3",
+        "d": "Kết quả khác"
+    },"50": {
+        "a": "6π",
+        "b": "4π",
+        "c": "12π",
+        "d": "8π"
+    },"51": {
+        "a": "π(e² + e)",
+        "b": "π(e² - e)",
+        "c": "πe²",
+        "d": "πe"
+    },"52": {
+        "a": "14 và 6i",
+        "b": "–14 và 6",
+        "c": "14 và – 6",
+        "d": "–14 và –6"
+    },"53": {
+        "a": "T = 35 + 14i",
+        "b": "T = 35 - 24i",
+        "c": "T = -35 + 14i ",
+        "d": "T = -35 - 14i"
+    },"54": {
+        "a": "T = 1 + i",
+        "b": "T = 1 - i",
+        "c": "T = -1 + i",
+        "d": "T = -1 - i"
+    },"55": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+    },"56": {
+        "a": "8 ± 4i",
+        "b": "-8 ± 4i",
+        "c": "-4 ± 2i",
+        "d": "4 ± 2i"
+    },"57": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+    },"58": {
+        "a": "Đường tròn tâm I(1; 2) bán kính R = 5",
+        "b": "Đường tròn tâm I(1; -2) bán kính R = 5",
+        "c": "Đường tròn tâm I(-1; 2) bán kính R = 5",
+        "d": "Đường tròn tâm I(-1; -2) bán kính R = 5"
+    },"59": {
+        "a": "0",
+        "b": "1/2",
+        "c": "1",
+        "d": "1/√2"
+    },"60": {
+        "a": "20",
+        "b": "21",
+        "c": "22",
+        "d": "40"
+    },"61": {
+        "a": "Số cạnh của một hình đa diện luôn là một số chẵn",
+        "b": "Số mặt của một hình đa diện luôn là một số chẵn",
+        "c": "Số đỉnh của một hình lăng trụ luôn là một số chẵn",
+        "d": "Số cạnh của một hình lăng trụ luôn là một số chẵn"
+    },"62": {
+        "a": "Tồn tại các khối đa diện đều loại (3;4)",
+        "b": "Tồn tại các khối đa diện đều loại (5;3)",
+        "c": "Tồn tại các khối đa diện đều loại (3;5)",
+        "d": "Tồn tại các khối đa diện đều loại (4;4)"
+    },"63": {
+        "a": "Trong một hình đa diện đều, số đỉnh luôn lớn hơn số mặt",
+        "b": "Tồn tại một hình đa diện đều có số đỉnh bằng số mặt",
+        "c": "Trong một hình đa diện đều, số đỉnh luôn bằng số mặt",
+        "d": "Trong một hình đa diện đều, số đỉnh luôn nhỏ hơn số mặt"
+    },"64": {
+        "a": "(a³√14)/3",
+        "b": "(a³√3)/6",
+        "c": "(a³√7)/2",
+        "d": "(a³√7)/3√2"
+    },"65": {
+        "a": "a³/√5",
+        "b": "(a³√5)/3",
+        "c": "(a³√3)/6",
+        "d": "(a³√15)/6"
+    },"66": {
+        "a": "(a³√39)/8",
+        "b": "(a³√39)/16",
+        "c": "(a³√39)/36",
+        "d": "(a³√39)/12"
+    },"67": {
+        "a": "(6a³√3)/25",
+        "b": "(6a³√15)/25",
+        "c": "(a³√3)/4",
+        "d": "(4a³√3)/5√5"
+    },"68": {
+        "a": "a/√6",
+        "b": "2a/√6",
+        "c": "a",
+        "d": "a/2"
+    },"69": {
+        "a": "a³",
+        "b": "4a³",
+        "c": "8a³",
+        "d": "16a³"
+    },"70": {
+        "a": "(3a³√2)/8",
+        "b": "(a³√2)/6",
+        "c": "2a³√3",
+        "d": "(2a³√3)/3"
+    },"71": {
+        "a": "πa²/3",
+        "b": "4πa²/3",
+        "c": "2πa²",
+        "d": "Đáp án khác"
+    },"72": {
+        "a": "2a√3/3",
+        "b": "2a√2/3",
+        "c": "a",
+        "d": "a√2"
+    },"73": {
+        "a": "√2",
+        "b": "1",
+        "c": "1/√2",
+        "d": "2"
+    },"74": {
+        "a": "π(m³)",
+        "b": "7,776π(m³)",
+        "c": "2,916π(m³)",
+        "d": "0,648π(m³)"
+    },"75": {
+        "a": "π",
+        "b": "2π",
+        "c": "4π/3",
+        "d": "4π"
+    },"76": {
+        "a": "2πa³√3/3",
+        "b": "πa³√3/36",
+        "c": "πa³√3/4",
+        "d": "πa³√3/12"
+    },"77": {
+        "a": "√63 / 12",
+        "b": "√255 / 12",
+        "c": "7/6",
+        "d": "5/4"
+    },"78": {
+        "a": "r√3",
+        "b": "2r",
+        "c": "(2+√3)r/√3 ",
+        "d": "2r√3"
+    },"79": {
+        "a": "x = 2 + t, y = 0, z = -1",
+        "b": "x = 1 + 2t, y = 0, z = -t",
+        "c": "x = -2 + t, y = 0, z = -",
+        "d": "x = 6 + t, y = 0, z = -3"
+    },"80": {
+        "a": "(x-1)/1=(y-2)/2=(z-3)/3",
+        "b": "x = -1 + t, y = 2 + 2t, z = -3 + 3t",
+        "c": "x = 1 + t, y = 2 - 2t, z = 3 + 3t",
+        "d": "x = 1 + t, y = -2 + 2t, z = 3 + 3t"
+    },"81": {
+        "a": "x = -1 - 3t, y = -2 - t, z = 3",
+        "b": "x = 3 + t, y = 1 + 2t, z = -3t",
+        "c": "x = 1 + 3t, y = 2 + t, z = -3 + t",
+        "d": "x = 1 + 3t, y = 2 + t, z = -3"
+    },"82": {
+        "a": "7x + y - 5z - 5 = 0",
+        "b": "2x - y + 3z + 3 = 0",
+        "c": "7x - y - 5z - 5 = 0",
+        "d": "3x + y + 3z - 5 = 0"
+    },"83": {
+        "a": "x + 1 = 0",
+        "b": "y + z - 1 = 0",
+        "c": "x - 1 = 0",
+        "d": "x = 1 + t, y = -2, z = 3"
+    },"84": {
+        "a": "d nằm trong mặt phẳng (P)",
+        "b": "d không vuông góc với mặt phẳng (P)",
+        "c": "d song song với mặt phẳng (P)",
+        "d": "d cắt mặt phẳng (P)"
+    },"85": {
+        "a": "x = 2 + t, y = -4 - t, z = 6 + t",
+        "b": "x = 1 + 2t, y = -1 -4t, z = 1 + 6t",
+        "c": "x = 2 + t, y = -4 + t, z = 6 + t",
+        "d": "x = 1 + 2t, y = 1 - 4t, z = 1 + 6t"
+    },"86": {
+        "a": "x + y + z - 3 = 0",
+        "b": "x - y + z - 1 = 0",
+        "c": "x + y + z + 3 = 0",
+        "d": "x - y + z + 1 = 0"
+    },"87": { "a": "m=-2 và n=2",
+        "b": "m=-2 và n=2 hoặc n=-3",
+        "c": "m=2 và n=-3",
+        "d": "m=-2 và n=-3"
+
+    },"88": {"a": "I₁(5; 11; 2)",
+        "b": "I₂(3; 7; 1) hoặc I₃(-3; -5; -2)",
+        "c": "I₂(3; 7; 1)",
+        "d": "I₁(5; 11; 2) hoặc I₄(-1; -1; -1)"
+
+    },"89": {"a": "(x - 1)² + (y - 1)² + (z - 1)² = 3",
+        "b": "(x - 1)² + (y - 1)² + (z - 1)² = 9",
+        "c": "(x + 1)² + (y + 1)² + (z + 1)² = 3",
+        "d": "(x + 1)² + (y + 1)² + (z + 1)² = 9"
+
+    },"90": { "a": "0",
+        "b": "√6/2",
+        "c": "1/2",
+        "d": "2"
+
+    },"91": { "a": "4π",
+        "b": "π",
+        "c": "2π",
+        "d": "16π"
+
+    },"92": { "a": "3/14",
+        "b": "3/√14",
+        "c": "6/14",
+        "d": "0"
+
+    },"93": {  "a": "x = -3 - t, y = t, z = 0",
+        "b": "x = 3 - t, y = t, z = 0",
+        "c": "x = 3 + t, y = 2t, z = 2t",
+        "d": "Đáp án khác"
+
+    },"94": {  "a": "√6 (cm)",
+        "b": "2√6 (cm)",
+        "c": "3√3 (cm)",
+        "d": "3√6 (cm)"
+
+    },"95": {
+        "a": "C(0;0;1)",
+        "b": "C(1;0;0)",
+        "c": "C(1;0;1)",
+        "d": "C(2;0;2)"
+    },"96": {
+        "a": "√3x + 4z - 2 = 0",
+        "b": "y + √3z = 0",
+        "c": "√3y + z - 2 = 0",
+        "d": "x + √3y + z - 2 = 0"
+    },"97": {
+        "a": "Vectơ (1;2;6) vuông góc với vectơ chỉ phương của đường thẳng d",
+        "b": "Phương trình của đường thẳng d là: 1(x - 1) + 2(y + 2) + 6(z + 6) = 0",
+        "c": "Phương trình chính tắc của đường thẳng d là: (x-1)/1=(y+2)/2=(z+6)/6",
+        "d": "Cả ba khẳng định trên đều sai"
+    },"98": {
+        "a": "d nằm trong mặt phẳng (P)",
+        "b": "d vuông góc với mặt phẳng (P)",
+        "c": "d song song với mặt phẳng (P)",
+        "d": "d cắt mặt phẳng (P) tại điểm H(6;-2;6)"
+    },"99": {
+        "a": "x = 1 + t, y = 8 + 4t, z = 3 + 2t",
+        "b": "x = 2t, y = 8 + 4t, z = 3 + 4t",
+        "c": "x = t, y = -8 + 4t, z = 3 + 2t ",
+        "d": "x = t, y = -8 - 4t, z = 3 + 2t"
+    },"100": {
+        "a": "10",
+        "b": "2",
+        "c": "√104 ",
+        "d": "√28"
+    }
+    },
+    { "0": "Hàm số nghịch biến trên các khoảng (-∞; 3) và (3; +∞)",
+        "1": "(0; +∞)",
+        "2": "m ≥ 1",
+        "3": "m = -3",
+        "4": "3",
+        "5": "-3",
+        "6": "m∈(-∞;-1)∪(5/4;+∞)",
+        "7": "m ≤ 1/2",
+        "8": "m = 1",
+        "9": "y = -8x + 1",
+        "10": "m = ±2",
+        "11": "7/3",
+        "12": "2√ - 2",
+        "13": "m=-1 hoặc m=2",
+        "14": "15",
+        "15": "song song với trục hoành",
+        "16": "y = 3x + 1",
+        "17": "Cả A và C đúng",
+        "18": "∛32 m",
+        "19": "m = 3/2",
+        "20": "m ≤ -1",
+        "21": "0 < m < 3",
+        "22": "m ∈ (1; 2)",
+        "23": "Đáp án khác",
+        "24": "y = ±1/2",
+        "25": "2",
+        "26": "4/3",
+        "27": "y = 0",
+        "28": "m < 5/4 và m ≠ -1",
+        "29": "Cả A và B.",
+        "30": "1",
+        "31": "1/2",
+        "32": "m = ± 1",
+        "33": "1",
+        "34": "y' = x.3^(x²/2).ln3",
+        "35": "25√5",
+        "36": "x = 81",
+        "37": "D = (1; +∞)\\{e}",
+        "38": "670960000 đồng",
+        "39": "e",
+        "40": "∅",
+        "41": "6 giây",
+        "42": "(-1; 1) ∪ (3; +∞)",
+        "43": "(-1; -√5; -1) ∪ (3; 1 + √5)",
+        "44": "ln³x - 2ln²x + 2lnx + C",
+        "45": "f(x) = (cos x + 3sin x) / (sin x - 3cos x)",
+        "46": "-x²cosx + 2x.sinx + 2cosx + C",
+        "47": "I = 2/3 u√u₁|²",
+        "48": "f(t) = 2t² - 2t",
+        "49": "8/3",
+        "50": "12π",
+        "51": "πe²",
+        "52": "–14 và –6",
+        "53": "T = 35 - 24i",
+        "54": "T = -1 - i",
+        "55": "5",
+        "56": "4 ± 2i",
+        "57": "3",
+        "58": "Đường tròn tâm I(1; 2) bán kính R = 5",
+        "59": "1/√2",
+        "60": "21",
+        "61": "Số đỉnh của một hình lăng trụ luôn là một số chẵn",
+        "62": "Tồn tại các khối đa diện đều loại (4;4)",
+        "63": "Tồn tại một hình đa diện đều có số đỉnh bằng số mặt",
+        "64": "(a³√3)/6",
+        "65": "(a³√15)/6",
+        "66": "(a³√39)/12",
+        "67": "(6a³√15)/25",
+        "68": "a/√6",
+        "69": "8a³",
+        "70": "(3a³√2)/8",
+        "71": "4πa²/3",
+        "72": "a",
+        "73": "1",
+        "74": "π(m³)",
+        "75": "4π",
+        "76": "πa³√3/12",
+        "77": "√255 / 12",
+        "78": "(2+√3)r/√3",
+        "79": "x = 2 + t, y = 0, z = -1",
+        "80": "x = 1 + t, y = -2 + 2t, z = 3 + 3t",
+        "81": "x = 1 + 3t, y = 2 + t, z = -3",
+        "82": "7x - y - 5z - 5 = 0",
+        "83": "x - 1 = 0",
+        "84": "d cắt mặt phẳng (P)",
+        "85": "x = 2 + t, y = -4 + t, z = 6 + t",
+        "86": "x + y + z - 3 = 0",
+        "87": "m=-2 và n=-3",
+        "88": "I₁(5; 11; 2) hoặc I₄(-1; -1; -1)",
+        "89": "(x - 1)2 + (y - 1)2 + (z - 1)2 = 3",
+        "90": "√6/2",
+        "91": "4π",
+        "92": "3/√14",
+        "93": "Đáp án khác",
+        "94": "2√6 (cm)",
+        "95": "C(1;0;1)",
+        "96": "√3y + z - 2 = 0",
+        "97": "Phương trình chính tắc của đường thẳng d là: (x-1)/1=(y+2)/2=(z+6)/6",
+        "98": "d cắt mặt phẳng (P) tại điểm H(6;-2;6)",
+        "99": "x = t, y = -8 - 4t, z = 3 + 2t",
+        "100": "10"
+
+    }
+]

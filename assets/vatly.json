@@ -1,0 +1,725 @@
+[
+    { "0": "Khi nói về dao động cưỡng bức và dao động duy trì, phát biểu nào sau đây là sai?",
+        "1": "Hiện tượng cộng hưởng cơ được ứng dụng trong:",
+        "2": "Một con lắc lò xo gồm vật nhỏ có khối lượng m và lò xo có độ cứng k, dao động điều hòa. Nếu tăng độ cứng k lên 2 lần và giảm khối lượng m đi 8 lần thì tần số dao động của con lắc sẽ:",
+        "3": "Một vật dao động theo phương trình x = 5cos(5πt + 0,5π) cm. Biên độ dao động của vật là:",
+        "4": "Một bạn học sinh dùng đồng hồ bấm giây để đo chu kỳ dao động của con lắc đơn bằng cách xác định khoảng thời gian để con lắc thực hiện được 10 dao động toàn phần. Kết quả 4 lần đo liên tiếp của bạn học sinh này là: 21,2 s; 20,2 s; 20,9 s; 20,0 s . Biết sai số tuyệt đối khi dùng đồng hồ này là 0,2 s (bao gồm sai số ngẫu nhiên khi bấm và sai số dụng cụ). Theo kết quả trên thì cách viết giá trị của chu kỳ T nào sau đây là đúng nhất?",
+        "5": "Hai dao động điều hòa cùng phương, cùng tần số có biên độ lần lượt là A1 = 8 cm; A2 = 15 cm và lệch pha nhau 0,5π. Dao động tổng hợp của hai dao động này có biên độ bằng:",
+        "6": "Một con lắc lò xo treo vào một điểm cố định, dao động điều hòa theo phương thẳng đứng với chu kỳ 2,4 s. Trong một chu kỳ, nếu tỉ số của thời gian lò xo giãn với thời gian lò xo nén bằng 2 thì thời gian mà lực đàn hồi tác dụng lên vật ngược chiều lực kéo về là:",
+        "7": "Một vật dao động điều hòa theo phương trình x = 6cos2πt cm, biên độ dao động của vật là:",
+        "8": "Biên độ của dao động cưỡng bức không phụ thuộc:",
+        "9": "Một chất điểm dao động điều hòa trên một trục cố định. Chiều dài quỹ đạo là 10 cm, tần số 10 Hz. Tại thời điểm t = 0, chất điểm qua vị trí có li độ cm và đi theo chiều dương của trục tọa độ. Phương trình dao động của vật là:",
+        "10": "Trong hiện tượng cộng hưởng:",
+        "11": "Một vật dao động điều hòa theo phương trình x = 8cos(20t) cm, t tính bằng giây. Tần số góc của vật là:",
+        "12": "Một vật dao động điều hòa với phương trình: \n x = 5 cos(4πt + π/3)cm \n- Quãng đường vật đi được sau 7/24 s kể từ thời điểm ban đầu là:",
+        "13": "Cho:\n X₁= A₁ cos(ωt + π/3)cm; X₂= A₂ cos(ωt - π/4)cm \nlà hai phương trình của hai dao động điều hòa cùng phương.\n- Biết phương trình dao động tổng hợp là x = 5cos(ωt + φ)cm. Để tổng biên độ của các dao động thành phần (A1 + A2) cực đại thì φ có giá trị là:",
+        "14": "Nhận định nào sau đây sai khi nói về dao động cơ học tắt dần?",
+        "15": "Một vật dao động điều hòa theo phương trình: X = 4cos(4πt + π/3)cm, t tính bằng giây. Thời gian vật 3 thực hiện được một dao động toàn phần là:",
+        "16": "Một vật nhỏ dao động điều hòa trên trục Ox theo phương trình x = A cos( ωt + φ). Gia tốc của vật có biểu thức:",
+        "17": "Gắn một vật m1 = 4 kg vào một lò xo thì nó dao động với chu kì T1 = 1 s. Khi gắn một vật khác có khối lượng m2 vào lò xo trên thì nó dao động với chu kì T2 = 0,5s. Khối lượng vật m2 bằng:",
+        "18": "Một con lắc đơn có chiều dài dây treo là 64 cm. Lấy g = π² m/s². Số dao động toàn phần vật thực hiện được trong 24 giây là:",
+        "19": "Một nguồn âm P phát ra âm đẳng hướng. Hai điểm A, B nằm cùng trên một phương truyền sóng có mức cường độ âm lần lượt là 40 dB và 30 dB. Điểm M nằm trong môi trường truyền sóng sao cho ▲AMB vuông cân ở A. Mức cường độ âm tại M là:",
+        "20": "Một sóng dọc truyền dọc lò xo với tần số 15 Hz, biên độ 4 cm thì thấy khoảng cách gần nhất giữa hai điểm B và C trên lò xo trong quá trình dao động̣ là 16 cm. Vi ̣trí cân bằng của B và C cách nhau 20 cm và nhỏ hơn nửa bước sóng. Tốc độ truyền sóng là:",
+        "21": "Sóng cơ có tần số 80 Hz lan truyền trong một môi trường với vận tốc 4 m/s. Dao động của các phần tử vật chất tại hai điểm trên một phương truyền sóng cách nguồn sóng những đoạn lần lượt là 31 cm và 33,5 cm, lệch pha nhau góc:",
+        "22": "Trên một sợi dây dài 0,9 m có sóng dừng. Kể cả hai nút ở hai đầu dây thì trên dây có 10 nút sóng. Biết tần số của sóng truyền trên dây là 200 Hz. Sóng truyền trên dây có tốc độ là:",
+        "23": "Một nguồn âm điểm S phát âm đẳng hướng với công suất không đổi trong một môi trường không hấp thụ và không phản xạ âm. Lúc đầu, mức cường độ âm do S gây ra tại điểm M là L dB. Khi cho S tiến lại gần M thêm một đoạn 60 m thì mức cường độ âm tại M lúc này là L + 6 dB. Khoảng cách từ S đến M lúc đầu là:",
+        "24": "Hai nguồn phát sóng kết hợp A và B trên mặt chất lỏng dao động theo phương trình uA = Acos100πt; uB = Bcos100πt . Tốc độ truyền sóng trên mặt chất lỏng là 1 m/s, I là trung điểm của AB. M là điểm nằm trên đoạn AI, N là điểm nằm trên đoạn IB. Biết IM = 5 cm và IN = 6,5 cm. Số điểm nằm trên đoạn MN có biên độ cực đại cùng pha với I là:",
+        "25": "Khi có sóng dừng trên một sợi dây đàn hồi, khoảng cách từ một bụng đến nút gần nó nhất bằng:",
+        "26": "Một sóng cơ học lan truyền trên một phương truyền sóng với tốc độ v = 50 cm/s. Sóng truyền từ O đến M, biết phương trình sóng tại điểm M là uM = 5cos(50πt - π) cm. M nằm sao O và cách O một đoạn 0,5 cm thì phương trình sóng tại O là:",
+        "27": "Cho cường độ âm chuẩn I0 = 10−¹² W/m². Một âm có mức cường độ 80 dB thì cường độ âm là:",
+        "28": "Một nguồn âm điểm O phát âm với công suất không đổi, âm truyền trong môi trường đẳng hướng không hấp thụ âm. Tại M và N mức cường độ âm lần lượt là 40 dB và 20 dB. Tỷ số OM/ON là:",
+        "29": " Công suất âm thanh cực đại của một máy nghe nhạc gia đình là 10 W. Cho rằng cứ truyền trên khoảng cách 1 m, năng lượng âm bị giảm đi 5% so với lần đầu do sự hấp thụ của môi trường truyền âm. Biết I₀ = 10-¹² W/m². Nếu mở to hết cỡ thì mức cường độ âm ở khoảng cách 6 m là",
+        "30": "Một sợi dây đàn hồi căng ngang đang có sóng dừng ổn định. Trên dây, A là một điểm nút, B là điểm bụng gần A nhất, I là trung điểm của AB với AB = 10 cm. Biết khoảng thời gian ngắn nhất giữa hai lần mà li độ dao động của phần tử tại B bằng biên độ dao động của phần tử tại I là 0,2 s. Quãng đường sóng truyền đi trong thời gian 2 s là:",
+        "31": "Đại lượng nào sau đây không phải là đặc trưng vật lý của âm?",
+        "32": "Độ cao của âm là một đặc trưng sinh lý của âm gắn liền với:",
+        "33": "Một dao động có phương trình u = Acos40πt, trong đó t tính bằng s. Sau thời gian 1,7 s thì sóng tạo ra bởi dao động này sẽ truyền được quãng đường bằng bao nhiêu lần bước sóng:",
+        "34": "Một khung dây quay đều trong từ trường đều quanh trục nằm trong mặt phẳng của khung và vương góc với các đường sức từ. Nếu giảm chu kì quay đi 2 lần và giảm độ lớn cảm ứng của từ trường đi 3 lần thì suất điện động hiệu dụng trong khung sẽ:",
+        "35": "Nối hai đầu đoạn mạch R, L, C mắc nối tiếp vào mạng điện xoay chiều có tần số f₁ thì cảm kháng là 15 Ω và dung kháng là 60 Ω. Nếu mạng điện có tần số f₂ = 50 Hz thì dòng điện trong mạch cùng pha với điện áp ở hai đầu đoạn mạch. Tần số f1 là:",
+        "36": "Cho đoạn mạch điện xoay chiều có R, L, C mắc nối tiếp, trong đó ZC biến đổi được. Nếu cho ZC tăng thêm 30 Ω so với giá trị lúc có cộng hưởng điện thì điện áp ở hai đầu đoạn mạch lệch pha π/3 so với dòng điện trong mạch. Điện trở R có giá trị là:",
+        "37": "Một đoạn mạch điện xoay chiều gồm hai cuộn dây mắc nối tiếp. Độ tự cảm và điện trở thuần của hai cuộn dây lần lượt là L₁, r₁; L₂, r₂. Điều kiện để điện áp hiệu dụng giữa hai đầu đoạn mạch bằng tổng điện áp hiệu dụng giữa hai đầu hai cuộn dây là:",
+        "38": "ho đoạn mạch điện có R, L, C mắc nối tiếp, trong dố R là một biến trở. Đặt vào hai đầu đoạn mạch một điện áp xoay chiều có điện áp hiệu dụng là U = 120 V. Khi điện trở biến trở bằng 40 Ω hoặc 160 Ω thì đoạn mạch tiêu thụ cùng công suất. Khi điều chỉnh biến trở, công suất cực đại mà đoạn mạch có thể đạt được là:",
+        "39": "Đặt điện áp u = 110√2 cosωt (V) (với ω không đổi) vào hai đầu đoạn mạch RLC nối tiếp. Biết độ tự cảm và điện dung của mạch điện được giữ không đổi. Điều chỉnh R ta thấy giá trị hiệu dụng của cường độ dòng điện trong mạch là I = 2 A thì công suất tiêu thụ của đoạn mạch cực đại. Công suất cực đại bằng:",
+        "40": "Đặt điện áp u = U√2 cosωt vào hai đầu đoạn mạch R, L, C mắc nối tiếp có điện dung C thay đổi được. Điện áp hiệu dụng U_R đạt cực đại khi Zc có giá trị:",
+        "41": " Cho đoạn mạch xoay chiều có R, L, C mắc nối tiếp, trong đó R là một biến trở. Đặt vào hai đầu đoạn mạch một điện áp u = U√(2cosωt). Khi điện trở của biến trở bằng R₁ hoặc R₂ thì đoạn mạch tiêu thụ cùng công suất là P. Công suất đó có giá trị là:",
+        "42": " Cho đoạn mạch xoay chiều có R, L, C mắc nối tiếp, cuộn cảm thuần có độ tự cảm thay đổi.\n\nĐặt vào hai đầu đoạn mạch một điện áp xoay chiều có U và ω không thay đổi. Khi điều chỉnh độ tự cảm đến giá trị L = 2/(ω²C) thì điện áp hiệu dụng giữa hai đầu cuộn cảm L đạt giá trị cực đại. Khi đó độ lệch pha giữa điện áp u và i trong đoạn mạch là:",
+        "43": "Cho mạch điện xoay chiều gồm điện trở thuần R = 50 Ω, tụ điện có dung kháng là 50 Ω và một cuộn cảm thuần có cảm kháng là 100 Ω mắc nối tiếp. Điện áp giữa hai đầu đoạn mạch có biểu thức u = 200√2cos100πt (V) . Biểu thức của điện áp giữa hai đầu cuộn dây là:",
+        "44": "Đặt điện áp xoay chiều có giá trị hiệu dụng và tần số không đổi vào hai đầu đoạn mạch mắc nối tiếp gồm điện trở R, cuộn cảm thuần L và tụ điện C thì điện áp cực đại giữa hai đầu mỗi phần tử bằng nhau và bằng 40 V. Khi tụ bị nối tắt thì điện áp hiệu dụng hai đầu điện trở bằng:",
+        "45": "Đặt điện áp xoay chiều u = U₀ cos(2πft + φ) V (U₀ không đổi, f thay đổi được) vào hai đầu đoạn mạch RLC mắc nối tiếp. Khi điều chỉnh f = f₁ = 50 Hz thì cảm kháng của cuộn dây và dung kháng của tụ điện lần lượt là 45 Ω và 90 Ω. Để dòng điện cùng pha với điện áp giữa hai đầu mạch thì phải điều chỉnh tần số đến giá trị f₂. Giá trị của f₂ là:",
+        "46": "Đặt điện áp u = U₀ cos(100πt + π/3)(V) vào hai đầu một cuộn cảm thuần có độ tự cảm L = 1/(2π)H. Ở thời điểm điện áp giữa hai đầu cuộn ảm là 100√2 V thì cường độ dòng điện qua cuộn cảm là 2A. Biểu thức của cường độ dòng điện qua cuộn cảm này là:",
+        "47": "Cường độ tức thời của dòng điện trong một mạch dao động là i = 0,15sin2000t (A). Tụ điện trong mạch có điện dung C = 2 µF. Điện áp cực đại trên tụ điện là:",
+        "48": "Một mạch dao động điện từ gồm cuộn cảm thuần có độ tự cảm L = 1 mH và tụ điện có điện dung C = 1,6 µF. Biết năng lượng dao động của mạch là W = 2.10-⁵J. Tại thời điểm ban đầu (t = 0) cường độ dòng điện qua cuộn dây có giá trị cực đại. Biểu thức để tính cường độ dòng điện trong mạch là:",
+        "49": "Một mạch dao động điện từ lí tưởng đang có dao động điện từ tự do. Tại thời điểm t = 0, điện tích trên một bản tụ điện đạt giá trị cực đại. Sau khoảng thời gian ngắn nhất 5.10-⁷ s thì năng lượng điện trường bằng năng lượng từ trường trong mạch dao động. Chu kì dao động riêng của mạch dao động này là:",
+        "50": "Cường độ tức thời của dòng điện trong một mạch dao động là i = 4sin2000t (mA). Tụ điện trong mạch có điện dung C = 0,25 µF. Năng lượng cực đại của tụ điện là:",
+        "51": "Một mạch chọn sóng của một máy thu gồm một cuộn cảm thuần có độ tự cảm L = 0,1 mH và tụ điện có điện dung thay đổi được từ 10 pF đến 1000 pF. Máy thu có thể thu được tất cả các sóng vô tuyến có dải sóng nằmg trong khoảng:",
+        "52": "Mạch dao động LC, khi điện áp giữa hai đầu cuộn cảm bằng 1,2 V thì cường độ dòng điện trong mạch bằng 1,8 mA. Khi điện áp giữa hai đầu cuộn cảm bằng 0,9 V thì cường độ dòng điện trong mạch bằng 2,4 mA. Biết độ tự cảm của cuộn dây là 5 mH. Điện dung của tụ và năng lượng dao động điện từ trong mạch bằng:",
+        "53": "Một mạch dao động của máy thu vô tuyến có tụ điện với điện dung C và cuộn cảm thuần với độ tự cảm L, thu được sóng điện từ có bước sóng 20 m. Để thu được sóng điện từ có bước sóng 40 m, người ta phải mắc song song với tụ điện của mạch dao động trên một tụ điện có điện dung C bằng:",
+        "54": "Một mạch dao động của máy thu vô tuyến điện gồm một cuộn cảm thuần có độ tự cảm L = 12 µH với điện trở không đáng kể và một tụ điện có điện dung có thể điều chỉnh được. Để thu được các sóng vô tuyến có bước sóng từ 10 m tới 160 m thì điện dung của tụ điện phải có giá trị trong khoảng từ:",
+        "55": "Một mạch dao động điện từ lý tưởng, tụ có điện dung C = 0,2 µF đang dao động điện từ tự do với hiệu điện thế cực đại trên tụ là U₀ = 13 V. Biết khi hiệu điện thế trên tụ là 12 V thì cường độ dòng điện trong mạch 5 mA. Chu kì dao động riêng của mạch bằng:",
+        "56": "Một mạch dao động LC gồm tụ điện C = 8 nF và cuộn cảm L = 8 mH. Nạp điện cho tụ điện đến điện áp 6 V rồi cho phóng điện qua cuộn cảm. Cường độ dòng điện qua cuộn cảm có giá trị cực đại bằng:",
+        "57": "Mạch dao động gồm cuộn dây có độ tự cảm L = 30 µH, một tụ điện có C = 3000 pF. Điện trở thuần của mạch dao động là 1 Ω. Để duy trì dao động điện từ trong mạch với hiệu điện thế cực đại trên tụ điện là 6 V phải cung cấp cho mạch một năng lượng điện có công suất:",
+        "58": "Trong mạch LC lý tưởng, điện tích cực đại trên tụ và dòng điện cực đại qua cuộn cảm lần lượt là Q₀ = 10-⁵ C và I₀ = 10 A. Lấy π = 3,14. Bước sóng điện từ do mạch bắt được nhận giá trị nào sau đây?",
+        "59": "Mạch dao động LC gồm tụ C = 200 nF và cuộn thuần cảm L = 2 mH. Biết cường độ dòng điện cực đại trên L là I₀ = 0,5 A. Khi cường độ dòng điện trên L là i = 0,4 A thì hiệu điện thế giữa hai bản tụ là:",
+        "60": "Trong một mạch dao động LC lý tưởng đang có dao động điện từ tự do. Khoảng thời gian ngắn nhất để cường độ dòng điện qua cuộn cảm giảm từ độ lớn cực đại xuống còn một nửa độ lớn cực đại là 800 µs. Khoảng thời gian ngắn nhất để năng lượng từ trường trong mạch giảm từ độ lớn cực đại xuống còn một nửa giá trị đó là:",
+        "61": "Khi ánh sáng trắng đi qua một lăng kính, bị tách ra thành các chùm tia có màu sắc khác nhau là do hiện tượng:",
+        "62": "Chiếu một tia sáng màu xanh từ chân không vào một môi trường trong suốt theo phương xiên góc với mặt phân cách. Sau khi vào môi trường này:",
+        "63": "Chiếu một chùm tia sáng hẹp gồm hai thành phần ánh sáng đơn sắc vàng và kục đi từ không khí vào mặc của tấm thủy tinh theo phương xiên góc. Hiện tượng xảy ra là:",
+        "64": "Hiện tượng nào dưới đây do ánh sáng bị tán sắc gây ra?",
+        "65": "Để đo bước sóng của ánh sáng đơn sắc người ta có thể dùng:",
+        "66": "Tia hồng ngoại là sóng điện từ có bước sóng:",
+        "67": "Tia hồng ngoại:",
+        "68": "Tia hồng ngoại, tử ngoại và Rơn – ghen không có tính chất chung nào nếu dứoi đây?",
+        "69": "Tính chất giống nhau giữa tia Rơn – ghen và tia tử ngoại là:",
+        "70": "Trong bốn loại tia dưới đây, tia nào xếp thứ hai về khả năng đâm xuyên?",
+        "71": "Tìm phát biểu sai.\n- Các bức xạ điện từ có bước sóng từ 5.10-⁷ m đến 10-⁹ m đều có tính chất chung là:",
+        "72": "Tia X và tia tử ngoại không có chung tính chất nào sau đây ?",
+        "73": "Một bức xạ trong không khí có bước sóng λ = 0,48 µm. Khi bức xja này chiếu vào trong nước có chiết suất n = 1,5 thì bước sóng của nó là",
+        "74": "Cho lăng kính thủy tinh có góc chiết quang A = 6°. Chiết suất của lăng kính phụ thuộc vào vào bước sóng λ theo công thức n = 1,620 + 0,2/λ² với λ tính ra µm. Chiếu chùm sáng gồm hai bức xạ có bước sóng λ₁ = 0,43 µm và λ₂ = 0,46 µm tới lăng kính trên với góc tới nhỏ. Góc lệch giữa hai tia ló là:",
+        "75": "Trên đoạn thẳng dài 9,6 mm nằm vuông góc với các vân sáng trên màn ảnh của một thí nghiệm Y – âng có 13 vân sáng, trong đó có 2 vân sáng ở hai đầu. Nguồn phát ánh sáng có bước sóng 0,6 µm. Tỉ số các khoảng cách a/D trong thí nghiệm này là:",
+        "76": "Tìm phát biểu sai về ánh sáng:",
+        "77": "Hiện tượng không chứng tỏ tính chất hạt của ánh sáng là hiện tượng:",
+        "78": "Tìm phát biểu sai khi so sánh hiện tượng quang điện trong và quang điện ngoài",
+        "79": "Tìm phát biểu sai về hiện tượng quang điện ngoài và hiện tượng quang dẫn.",
+        "80": "Hiện tượng nào sau dây không liên quan đến tính chất lượng tử của ánh sáng?",
+        "81": "Hiện tượng quang điện trong và hiện tượng quang điện ngoài đều:",
+        "82": "Thuyết sóng ánh sáng không thể giải thích được:",
+        "83": "Dụng cụ nào sau đây có nguyên tắc hoạt động dựa vào hiện tượng quang điện trong?",
+        "84": "Tìm phát biểu sai:",
+        "85": "Một quả cầu kim loại được đặt cô lấp về điện và cách xa các vật dẫn khác. Chiếu lần lượt vào quả cầu hai bức xạ có bước sóng λ1 và λ2 (λ1 < λ2) thì đều xảy ra hiện tượng quang điện và điện thế cực đại mà quả cầu đạt được tương ứng là V1,V2. Nếu chiếu đồng thời hai bức xạ điện từ nói trên vào quả cầu thì điện thế cực đại của quả cầu là",
+        "86": "Tốc độ của êlectron trong nguyên tử hiđrô trên quỹ đạo có số lượng tử n có giá trị",
+        "87": "Một quang êlectron khi bay vào từ trường đều có cảm ứng từ B =10-4 theo phương vuông góc với các đường sức từ có bán kính quỹ đạo là 23,32 cm. Tốc độ của êlectron khi bay vào từ trường là",
+        "88": "Trong quang phổ của nguyên tử hiđrô, nếu biết bước sóng λ₂₁ của bức xạ phát ra ứng với sự chuyển êlectron từ quỹ đạo L sang quỹ đạo K và bước sóng λ₃₂ của bức xạ phát ra ứng với sự chuyển êlectron từ quỹ đạo M sáng quỹ đạo K sẽ là",
+        "89": "Một điện cực phẳng làm bằng kim loại có công thoát 3,2.10–¹⁹ (J) được chiếu bởi bức xạ photon có năng lượng 4,8.10–¹⁹ (J). Cho điện tích của electron là –1,6.10–¹⁹ (C). Hỏi electron quang điện có thể rời xa bề mặt một khoảng tối đa bao nhiêu nếu bên ngoài điện cực có một điện trường cản là 5 (V/m).",
+        "90": "Sự phóng xạ và hiện tượng phân hạch không có đặc điểm chung nào nêu dưới đây?",
+        "91": "Lực hạt nhân:",
+        "92": "Tìm phát biểu sai. So sánh hạt nhân của hai đồng vị Bài tập trắc nghiệm Vật Lí 12 | Câu hỏi trắc nghiệm Vật Lí 12 ta thấy chúng có:",
+        "93": "Hạt nào được bức xạ khi ³²P phân rã thành ³²P (nguyên tử số của P và S tương ứng là 15 và 16)",
+        "94": "Trong phản ứng hạt nhân có sự bảo toàn về:",
+        "95": "Phản ứng hạt nhân khác phản ứng hóa học ở chỗ:",
+        "96": "Hạt anpha có khối lượng 6,64.10²⁷ kg chuyển động tròn đều trong từ trường đều có cảm ứng từ B = 0,5T. Biết bán kính quỹ đạo là 0,5 m. Tốc độ của hạt là",
+        "97": "Hạt nhân X trong phản ứng X + α → n + ¹²C₆ là",
+        "98": "Biết khối lượng các hạt là : mp = 1,007276 u, mn = 1,008670 u, mα = 4,0015 u, 1 u = 930 MeV/c2. Năng lượng tỏa ra khi có 5,6 dm3 khí heli ở điều kiện chuẩn tạo thành từ các nuclôn là:",
+        "99": "Một mẫu đồng vị rađôn (²²²Rn) có chu kì bán rã là 3,8 ngày và có khối lượng ban đầu là m0. Sau 19 ngày, khối lượng chất này có độ phóng xạ 0,5 Ci. Khối lượng m₀ là:",
+        "100": "Lúc đầu, tỉ số khối lượng của chất phóng xạ A đối với B là 3 : 1. Nếu chu kì bán rã của chúng tương ứng là T và 4T/3 thì sau thời gian bằng 4T tỉ số khối lượng của A đối với B là:"
+    },
+    {"0": {
+        "a": "Dao động duy trì có tần số bằng tần số riêng của hệ dao động.",
+        "b": "Dao động duy trì có biên độ không đổi.",
+        "c": "Biên độ của dao động cưỡng bức là biên độ của lực cưỡng bức.",
+        "d": "Dao động cưỡng bức có tần số bằng tần số của lực cưỡng bức."
+    },
+        "1": {
+            "a": "máy đầm nền.",
+            "b": "giảm xóc ô tô, xe máy.",
+            "c": "con lắc đồng hồ.",
+            "d": "con lắc vật lý."
+        },
+        "2": {
+            "a": "tăng 4 lần.",
+            "b": "giảm 2 lần.",
+            "c": "tăng 2 lần. ",
+            "d": "giảm 4 lần."
+        },
+        "3": {
+            "a": "2,5 cm.",
+            "b": "0,5 cm.",
+            "c": "10 cm.",
+            "d": "5 cm."
+        },
+        "4": {
+            "a": "T = 2,06 ± 0,2 s.",
+            "b": "T = 2,13 ± 0,02 s.",
+            "c": "T = 2,00 ± 0,02 s.",
+            "d": "T = 2,06 ± 0,02 s."
+        },
+        "5": {
+            "a": "7 cm.",
+            "b": "23 cm.",
+            "c": "11 cm.",
+            "d": "17 cm."
+        },
+        "6": {
+            "a": "0,4 s.",
+            "b": "0,2 s.",
+            "c": "0,3 s.",
+            "d": "0,1 s."
+        },
+        "7": {
+            "a": "A = 6 mm.",
+            "b": "A = 6 cm.",
+            "c": "A = 12 cm.",
+            "d": "A = 12π cm."
+        },
+        "8": {
+            "a": "pha ban đầu của ngoại lực tuần hoàn tác dụng lên vật.",
+            "b": "biên độ của ngoại lực tuần hoàn tác dụng lên vật.",
+            "c": "lực cản tác dụng lên vật dao động.",
+            "d": "tần số của ngoại lực tuần hoàn tác dụng lên vật."
+        },
+        "9": {
+            "a": "X = 5 cos(20πt - π/3)cm",
+            "b": "X = 5 cos(20πt + π/3)cm",
+            "c": "X = 5 cos(20πt - 2π/3)cm",
+            "d": "X = 5 cos(20πt + 2π/3)cm"
+        },
+        "10": {
+            "a": "biên độ ngoại lực cưỡng bức đạt cực đại.",
+            "b": "biên độ dao động cưỡng bức đạt cực đại.",
+            "c": "tần số dao động cưỡng bức đạt cực đại.",
+            "d": "tần số dao động riêng đạt giá trị cực đại."
+        },
+        "11": {
+            "a": "20π rad/s.",
+            "b": "10/π rad/s.",
+            "c": "20 rad/s.  ",
+            "d": "10 rad/s."
+        },"12": {
+        "a": "12 cm.",
+        "b": "10 cm.",
+        "c": "20 cm.",
+        "d": "12,5 cm."
+    },"13": {
+        "a": "π/6",
+        "b": "π/24",
+        "c": "5π/12",
+        "d": "π/12"
+    },"14": {
+        "a": "Dao động tắt dần là dao động có biên độ giảm dần theo thời gian.",
+        "b": "Dao động tắt dần có động năng và thế năng giảm đều theo thời gian.",
+        "c": "Lực ma sát càng lớn thì dao động tắt dần càng nhanh.",
+        "d": "Trong dao động tắt dần cơ năng giảm dần theo thời gian."
+    },"15": {
+        "a": "1 s.",
+        "b": "4 s.",
+        "c": "0,5 s.",
+        "d": "2 s."
+    },"16": {
+        "a": "a = ωA cos(ωt+φ)",
+        "b": "a = -ω²A cos(ωt+φ)",
+        "c": "a = -ωA sin(ωt+φ)",
+        "d": "a = -ω²A sin(ωt+φ)"
+    },"17": {
+        "a": "2 kg.",
+        "b": "1 kg.",
+        "c": "8 kg.",
+        "d": "16 kg."
+    },"18": {
+        "a": "15.",
+        "b": "10.",
+        "c": "1,5.",
+        "d": "25."
+    },"19": {
+        "a": "37,54 dB.",
+        "b": "32,46 dB.",
+        "c": "35,54 dB.",
+        "d": "38,46 dB."
+    },"20": {
+        "a": "18 m/s",
+        "b": "12 m/s.",
+        "c": "9 m/s.",
+        "d": "20 m/s."
+    },"21": {
+        "a": "π/3 rad.",
+        "b": "π/2 rad.",
+        "c": "π rad.",
+        "d": "2π rad."
+    },"22": {
+        "a": "90 cm/s.",
+        "b": "40 cm/s.",
+        "c": "90 m/s.",
+        "d": "40 m/s."
+    },"23": {
+        "a": "80,6 m.",
+        "b": "200 m.",
+        "c": "40 m.",
+        "d": "120,3 m."
+    },"24": {
+        "a": "7",
+        "b": "6",
+        "c": "4",
+        "d": "5"
+    },"25": {
+        "a": "một số nguyên lần bước sóng.",
+        "b": "một phần tư bước sóng.",
+        "c": "một nửa bước sóng.",
+        "d": "một bước sóng."
+    },"26": {
+        "a": "U₀ = 5cos(50πt + π)cm",
+        "b": "U₀ = 5cos(50πt - 3π/4)cm",
+        "c": "U₀ = 5cos(50πt - 3π/2)cm",
+        "d": "U₀ = 5cos(50πt - π/2)cm"
+    },"27": {
+        "a": "10-²⁰ W/m²",
+        "b": "3.10-⁵ W/m²",
+        "c": "10-⁴ W/m²",
+        "d": "10-⁶ W/m²"
+    },"28": {
+        "a": "0,1",
+        "b": "10",
+        "c": "100",
+        "d": "0,01"
+    },"29": {
+        "a": "89 dB.",
+        "b": "98 dB.",
+        "c": "107 dB.",
+        "d": "102 dB."
+    },"30": {
+        "a": "1 m.",
+        "b": "0,5 m.",
+        "c": "2 m.",
+        "d": "1,5 m."
+    },"31": {
+        "a": "Cường độ âm.",
+        "b": "Mức cường độ âm.",
+        "c": "Độ cao của âm.",
+        "d": "Tần số âm."
+    },"32": {
+        "a": "tần số âm.",
+        "b": "độ to của âm.",
+        "c": "năng lượng của âm.",
+        "d": "ức cường độ âm."
+    },"33": {
+        "a": "40 lần.",
+        "b": "34 lần.",
+        "c": "17 lần.",
+        "d": "26 lần."
+    },"34": {
+        "a": "Tăng 3 lần",
+        "b": "Tăng 1,5 lần",
+        "c": "Giảm 6 lần",
+        "d": "Giảm 1,5 lần"
+    },"35": {
+        "a": "25 Hz",
+        "b": "100 Hz",
+        "c": "150 Hz",
+        "d": "200 Hz"
+    },"36": {
+        "a": "15√2 Ω",
+        "b": "10√3 Ω",
+        "c": "15√3 Ω",
+        "d": "10√2 Ω"
+    },"37": {
+        "a": "L₁.r₁ = L₂.r₂",
+        "b": "L₁.r₁² = L₂.r₂²",
+        "c": "L₁.r₂ = L₂.r₁",
+        "d": "L₁.r₂² = L₂.r₁²"
+    },"38": {
+        "a": "180 W",
+        "b": "144 W",
+        "c": "72 W",
+        "d": "90 W"
+    },"39": {
+        "a": "110 W",
+        "b": "220 W",
+        "c": "110√2 W",
+        "d": "110√3 W"
+    },"40": {
+        "a": "Zc = R",
+        "b": "Zc = ZL",
+        "c": "Zc = ZL/2",
+        "d": "Zc = R/2"
+    },"41": {
+        "a": "U²/(R₁+R₂)",
+        "b": "2.U²/(R₁+R₂)",
+        "c": "U²/√(R₁R₂)",
+        "d": "2.U²/√(R₁R₂)"
+    },"42": {
+        "a": "u trễ pha hơn i một góc π/4",
+        "b": "u sớm pha hơn i một góc 3π/4",
+        "c": "u trễ pha hơn i một góc π/2",
+        "d": "u sớm pha hơn i một góc π/4"
+    },"43": {
+        "a": "uL = 400√2cos(100πt + π/4) (V)",
+        "b": "uL = 200cos(100πt - π/6) (V)",
+        "c": "uL = 400cos(100πt + π/4) (V)",
+        "d": "uL = 220cos(100πt - π/6) (V)"
+    },"44": {
+        "a": "20√2 V.",
+        "b": "10 V.",
+        "c": "20 V.",
+        "d": "40 V."
+    },"45": {
+        "a": "75 Hz",
+        "b": "50√2 Hz",
+        "c": "25√2 Hz",
+        "d": "100 Hz"
+    },"46": {
+        "a": "i = 2√2 cos(100πt+π/6) (A)",
+        "b": "i = 2√3 cos(100πt+π/6) (A)",
+        "c": "i = 2√3 cos(100πt-π/6) (A)",
+        "d": "i = 2√2 cos(100πt-π/6) (A)"
+    },"47": {
+        "a": "3,75 V",
+        "b": "7,5 V",
+        "c": "37,5 V",
+        "d": "75 V"
+    },"48": {
+        "a": "i = 0,002cos(5.10⁴t) (A)",
+        "b": "i = 0,2cos(2,5.10⁴t) (A)",
+        "c": "i = 2 cos(2,5.10⁵t - π) (A)",
+        "d": "i = 0,2cos(5.10⁵t) (A)"
+    },"49": {
+        "a": "2.10-⁶ s",
+        "b": "3.10-⁶ s",
+        "c": "1,5.10-⁶ s",
+        "d": "4.10-⁶ s"
+    },"50": {
+        "a": "8.10-⁶ s",
+        "b": "4.10-⁶ s",
+        "c": "1,6.10-⁵ s",
+        "d": "4.10-⁵ s"
+    },"51": {
+        "a": "12,84 m ÷ 128,4 m",
+        "b": "59,6 m ÷ 596 m",
+        "c": "62 m ÷ 620 m",
+        "d": "35,5 m ÷ 355 m"
+    },"52": {
+        "a": "10 nF và 25.10-¹⁰ J",
+        "b": "20 nF và 5.10-¹⁰ J",
+        "c": "20 nF và 2,25.10-⁸ J",
+        "d": "10 nF và 3.10-¹⁰ "
+    },"53": {
+        "a": "4C",
+        "b": "C",
+        "c": "2C",
+        "d": "3C"
+    },"54": {
+        "a": "2,35 pF tời 600 pF",
+        "b": "4,3 pF tới 560 pF",
+        "c": "4,5 pF tới 600 pF",
+        "d": "2,35 pF tới 300 pF"
+    },"55": {
+        "a": "4.10-⁴ s.",
+        "b": "4π.10-⁴ s.",
+        "c": "24π.10-⁴ s.",
+        "d": "2.10-⁴ s."
+    },"56": {
+        "a": "12 A.",
+        "b": "17 mA.",
+        "c": "8,5 mA.",
+        "d": "6 mA."
+    },"57": {
+        "a": "0,18 W.",
+        "b": "1,8 mW.",
+        "c": "1,8 W.",
+        "d": "5,5 mW."
+    },"58": {
+        "a": "188,4 m.",
+        "b": "376,8 m.",
+        "c": "1884 m.",
+        "d": "314 m."
+    },"59": {
+        "a": "10 V.",
+        "b": "20 V.",
+        "c": "30 V.",
+        "d": "40 V."
+    },"60": {
+        "a": "800 µs.",
+        "b": "1200 µs.",
+        "c": "600 µs.",
+        "d": "400 µs."
+    },"61": {
+        "a": "tán xạ ánh sáng",
+        "b": "tán sắc ánh sáng",
+        "c": "phản xạ ánh sáng",
+        "d": "khúc xạ ánh sáng"
+    },"62": {
+        "a": "màu của ánh sáng thay đổi",
+        "b": "tần số của ánh sáng thay đổi",
+        "c": "bước sóng của ánh sáng thay đổi",
+        "d": "phương truyền của ánh sáng không thay đổi"
+    },"63": {
+        "a": "hai tia khúc xạ lệch về hai phía của pháp tuyến",
+        "b": "tia khúc xạ màu vàng bị lệch ít, tia khúc xạ màu lục bị lệch nhiều",
+        "c": "tia khúc xạ màu kkục bị lệch ít, tia khúc xạ màu vàng bị lệch nhiều",
+        "d": "chùm tia sáng chỉ bị khúc xạ"
+    },"64": {
+        "a": "Hiện tượng quang – phát quang",
+        "b": "Hiện tượng cấu vòng",
+        "c": "Hiện tượng tia sáng bị đổi hướng khi truyền qua mặt phân cách giữa hai môi trường trong suốt",
+        "d": "Hiện tượng phát xạ lượng từ"
+    },"65": {
+        "a": "thí nghiệm Y – ân về giao thoa ánh sáng",
+        "b": "thí nghiệm tán sắc ánh sáng",
+        "c": "thì nghiệm tổng hợp ánh sáng trắng",
+        "d": "thí nghiện của Niu – tơn về ánh sáng đơn sắc"
+    },"66": {
+        "a": "nhỏ hơn bước sóng ánh sáng đỏ",
+        "b": "nhỏ hơn bước sóng ánh sáng tím",
+        "c": "lớn hơn bước sóng ánh sáng đỏ",
+        "d": "nằm trong khoảng bước sóng ánh sáng đỏ và tím"
+    },"67": {
+        "a": "có cùng bản chất với sóng siêu âm",
+        "b": "khác bản chất với sóng vô tuyến",
+        "c": "không thể truyền được trong chân không",
+        "d": "truyền đi trong chân không với tốc độ bằng tốc đọ ánh sáng"
+    },"68": {
+        "a": "Đều có khả năng đâm xuyên mạnh",
+        "b": "Đều là sóng điện từ",
+        "c": "Đều có tính lượng từ",
+        "d": "Đều có tính chất sóng"
+    },"69": {
+        "a": "bị hấp thụ bởi thủy tinh và nước",
+        "b": "làm phát quang một số chất",
+        "c": "có tính đâm xuyên mạnh",
+        "d": "đều bị lệch trong điện trường"
+    },"70": {
+        "a": "Tia gamma",
+        "b": "Tia hồng ngoại",
+        "c": "Tia Rơn – ghen",
+        "d": "Tia tử ngoại"
+    },"71": {
+        "a": "có tác dụng lên kính ảnh",
+        "b": "không nhìn thấy",
+        "c": "có tác dụng sinh học",
+        "d": "có khả năng gây hiệu ứng quang điện."
+    },"72": {
+        "a": "không mang điện",
+        "b": "có khả năng sinh lí",
+        "c": "tác dụng mạnh lên kính ảnh",
+        "d": "bị nước hấp thụ mạnh."
+    },"73": {
+        "a": "0,48 µm",
+        "b": "0,36 µm",
+        "c": "0,32 µm",
+        "d": "0,72 µm"
+    },"74": {
+        "a": "0,68°",
+        "b": "0,82°",
+        "c": "0,14°",
+        "d": "2,1°"
+    },"75": {
+        "a": "2,5.10-³",
+        "b": "7,5.10-⁴",
+        "c": "4,5.10-⁴",
+        "d": "1,3.10-⁴"
+    },"76": {
+        "a": "Ánh sáng vừa có tính chất sóng vừa có tính chất hạt.",
+        "b": "Tần số của ánh sáng càng lớn thì tính chất hạt của ánh sáng càng thể hiện rõ.",
+        "c": "Bước sóng của ánh sáng càng lớn thì tính chất hạt của ánh sáng càn rõ.",
+        "d": "Tính chất hạt của ánh sáng thể hiện càng rõ thì tính chất sóng thể hiện càng yếu."
+    },"77": {
+        "a": "Quang điện ngoài",
+        "b": "Quang điện trong",
+        "c": "Phát quang",
+        "d": "Tán sắc"
+    },"78": {
+        "a": "Đều do êlectron nhận năng lựng của photon gây ra",
+        "b": "Đều do bước sóng giới hạn λo",
+        "c": "Bước sóng giới hạn đều phụ thuộc vào bản chất của từng khối chất",
+        "d": "Bước sóng giới hạn ứng với hiện tượng quang điện ngoài thường lớn hơn đối với hiện tượng quang điện"
+    },"79": {
+        "a": "Trong hiện tượng quang dẫn, điện trở của khối chất bán dẫn giảm khi khối bán dẫn được chiếu ánh sáng thích hợp.",
+        "b": "Trong hiện tượng quang dẫn, các êlectron bị bứt ra khỏi liên kết với hạt nhân của khối chất bán dẫn nhưng vẫn nằm trong khối bán dẫn khi khối bán dẫn được chiếu ánh sáng.",
+        "c": "Trong hiện tượng quang điện ngoài, độ dẫn điện của khối kim loại tăng khi khối kim loại được chiếu bằng ánh sáng thích hợp.",
+        "d": "Hiện tượng quang dẫn chỉ có thể xảy ra khi bước sóng của bức xạ kích thích nhỏ hơn một giá trị nào đó đối với mỗi chất bán dẫn"
+    },"80": {
+        "a": "Hiện tượng quang phát quang",
+        "b": "Hiện tượng phát xạ nhiệt điện từ",
+        "c": "Hiện tượng quang điện",
+        "d": "Hiện tượng phát quang phổ vạch"
+    },"81": {
+        "a": "Làm các êlectron bứt ra khỏi vật được chiếu sáng",
+        "b": "Làm cho điện trở vaạt giảm xuống khi vật được chiếu sáng",
+        "c": "Được ứng dụng để chế tạo pin quang điện",
+        "d": "Xảy ra khi bước sóng của ánh sáng kích thích nhỏ hơn hoặc bằng một bước sóng giới hạn nào đó."
+    },"82": {
+        "a": "Hiện tượng giao thoa ánh sáng",
+        "b": "Hiện tượng quang điện",
+        "c": "Hiện tượng nhiễu xạ ánh sáng",
+        "d": "Hiện tượng tán sắc ánh sáng"
+    },"83": {
+        "a": "Tế bào quang điện",
+        "b": "Máy quang phổ",
+        "c": "Điôt phát quang",
+        "d": "Quang điện trở"
+    },"84": {
+        "a": "Hiện tượng giao thoa ánh sáng chứng tỏ ánh sáng có tính chất sóng",
+        "b": "Hiện tượng quang điện chứng tỏ ánh sáng có tính chất hạt",
+        "c": "Photon ánh sáng không thể hiện tính chất sóng khi truyền trong chân không",
+        "d": "Photon ánh sáng luôn mang đồng thời cả tính chất sóng và tính chất hạt"
+    },"85": {
+        "a": "Vmax = V₁+V₂",
+        "b": "Vmax = V₁V₂/(V₁+V₂)",
+        "c": "Vmax = V₁",
+        "d": "Vmax = V₂"
+    },"86": {
+        "a": "Tỉ lệ thuận với n",
+        "b": "Tỉ lệ nghịch với n",
+        "c": "Tỉ lệ thuận với √n",
+        "d": "Tỉ lệ nghịch với √n"
+    },"87": {
+        "a": "4,1.10⁶ m/s",
+        "b": "4,1.10⁵ m/s",
+        "c": "4,1.10⁵ mm/s",
+        "d": "6,2.10⁵ m/s"
+    },"88": {
+        "a": "λ₃₁ = λ₃₂ + λ₂₁",
+        "b": "λ₃₁ = (λ₃₂ + λ₂₁)/2",
+        "c": "1/λ₃₁ = 1/λ₃₂ + 1/λ₂₁",
+        "d": "1/λ₃₁ = 1/λ₃₂ - 1/λ₂₁"
+    },"89": {
+        "a": "0,2 m.",
+        "b": "0,4 m.",
+        "c": "0,1 m.",
+        "d": "0,3 m."
+    },"90": {
+        "a": "Đều là phản ứng tỏa năng lượng",
+        "b": "Không phụ thuộc vào các tác động bên ngoài",
+        "c": "Đều có thể phóng ra tia γ",
+        "d": "Không bảo toàn khối lượng"
+    },"91": {
+        "a": "Là lực liên kết các proton trong hạt nhân nguyên tử",
+        "b": "Là lực hấp dẫn giữa các nuclôn",
+        "c": "Là lực hút trong bán kinh tác dụng, lực đẩy khi ở ngoài bán kính tác dụng",
+        "d": "Chỉ phát huy tác dụng trong phạm vi kích thích thức hạt nhân"
+    },"92": {
+        "a": "Bán kính như nhau",
+        "b": "Cùng số proton",
+        "c": "Số nơtron hơn kém nhau là 3",
+        "d": "Số nuclôn hơn kém nhau là 3"
+    },"93": {
+        "a": "Gamma",
+        "b": "Êlectron",
+        "c": "Pôzitron",
+        "d": "Anpha"
+    },"94": {
+        "a": "Số nuclôn",
+        "b": "Số proton",
+        "c": "Số nơtron",
+        "d": "Khối lượng"
+    },"95": {
+        "a": "Có thể tỏa nhiệt hoặc thu nhiệt",
+        "b": "Không liên quan đến có êlectron ở lớp vỏ nguyên tử",
+        "c": "Chỉ xảy ra khi thỏa mãn các điều kiện nào đó",
+        "d": "Tuân theo định luật bảo toàn điện tích"
+    },"96": {
+        "a": "3,8.10⁷ m/s ",
+        "b": "7,6.10⁷ m/s",
+        "c": "1,9.10⁷ m/s",
+        "d": "3,8.10⁶ m/s"
+    },"97": {
+        "a": "⁶₃Li",
+        "b": "⁹₄Be",
+        "c": "¹⁰₅Bo",
+        "d": "¹⁴₆₇N"
+    },"98": {
+        "a": "6,8.10¹¹ J",
+        "b": "2,7.10¹² J",
+        "c": "4,5.10¹¹ J",
+        "d": "8,5.10¹³ J"
+    },"99": {
+        "a": "103 μg.",
+        "b": "0,31mg.",
+        "c": "0,13μg.",
+        "d": "1,3 mg."
+    },"100": {
+        "a": "1",
+        "b": "2",
+        "c": "3/2",
+        "d": "2/3"
+    }
+    },
+    { "0": "Biên độ của dao động cưỡng bức là biên độ của lực cưỡng bức.",
+        "1": "máy đầm nền.",
+        "2": "tăng 4 lần.",
+        "3": "5 cm.",
+        "4": "T = 2,06 ± 0,02 s.",
+        "5": "17 cm.",
+        "6": "0,4 s.",
+        "7": "A = 6 cm.",
+        "8": "biên độ của ngoại lực tuần hoàn tác dụng lên vật.",
+        "9": "X = 5 cos(20πt - 2π/3)cm",
+        "10": "biên độ dao động cưỡng bức đạt cực đại.",
+        "11": "20 rad/s.",
+        "12": "12,5 cm.",
+        "13": "π/24",
+        "14": "Dao động tắt dần có động năng và thế năng giảm đều theo thời gian.",
+        "15": "0,5 s.",
+        "16": "a = -ω²A cos(ωt+φ)",
+        "17": "1 kg.",
+        "18": "1,5.",
+        "19": "32,46 dB.",
+        "20": "18 m/s.",
+        "21": "π rad.",
+        "22": "40 m/s.",
+        "23": "120,3 m.",
+        "24": "5",
+        "25": "một phần tư bước sóng.",
+        "26": "U₀ = 5cos(50πt - π/2)cm",
+        "27": "10-4 W/m2.",
+        "28": "0,1",
+        "29": "102 dB.",
+        "30": "1 m.",
+        "31": "Độ cao của âm.",
+        "32": "tần số âm.",
+        "33": "34 lần.",
+        "34": "Giảm 1,5 lần",
+        "35": "25 Hz",
+        "36": "10√3 Ω",
+        "37": "L₁.r₂ = L₂.r₁",
+        "38": "90 W",
+        "39": "110√2 W",
+        "40": "Zc = ZL",
+        "41": "U²/(R₁+R₂)",
+        "42": "u sớm pha hơn i một góc π/4",
+        "43": "uL = 400cos(100πt + π/4) (V)",
+        "44": "20 V.",
+        "45": "50√2 Hz",
+        "46": "i = 2√3 cos(100πt-π/6) (A)",
+        "47": "37,5 V",
+        "48": "i = 0,2cos(2,5.10⁴t) (A)",
+        "49": "4.10-⁶ s",
+        "50": "8.10-⁶ s ",
+        "51": "59,6 m ÷ 596 m",
+        "52": "20 nF và 2,25.10-8 J",
+        "53": "3C",
+        "54": "2,35 pF tời 600 pF",
+        "55": "4π.10-⁴ s.",
+        "56": "6 mA.",
+        "57": "0,18 W.",
+        "58": "1884 m.",
+        "59": "30 V.",
+        "60": "600 µs.",
+        "61": "tán sắc ánh sáng",
+        "62": "bước sóng của ánh sáng thay đổi",
+        "63": "tia khúc xạ màu vàng bị lệch ít, tia khúc xạ màu lục bị lệch nhiều",
+        "64": "Hiện tượng cấu vòng",
+        "65": "thí nghiệm Y – ân về giao thoa ánh sáng",
+        "66": "lớn hơn bước sóng ánh sáng đỏ",
+        "67": "truyền đi trong chân không với tốc độ bằng tốc đọ ánh sáng",
+        "68": "Đều có khả năng đâm xuyên mạnh",
+        "69": "làm phát quang một số chất",
+        "70": "Tia Rơn – ghen",
+        "71": "không nhìn thấy",
+        "72": "bị nước hấp thụ mạnh.",
+        "73": "0,32 µm",
+        "74": "0,82°",
+        "75": "7,5.10-⁴",
+        "76": "Bước sóng của ánh sáng càng lớn thì tính chất hạt của ánh sáng càn rõ.",
+        "77": "Tán sắc",
+        "78": "Bước sóng giới hạn ứng với hiện tượng quang điện ngoài thường lớn hơn đối với hiện tượng quang điện",
+        "79": "Trong hiện tượng quang điện ngoài, độ dẫn điện của khối kim loại tăng khi khối kim loại được chiếu bằng ánh sáng thích hợp.",
+        "80": "Hiện tượng phát xạ nhiệt điện từ",
+        "81": "Xảy ra khi bước sóng của ánh sáng kích thích nhỏ hơn hoặc bằng một bước sóng giới hạn nào đó.",
+        "82": "Hiện tượng quang điện",
+        "83": "Quang điện trở",
+        "84": "Photon ánh sáng không thể hiện tính chất sóng khi truyền trong chân không",
+        "85": "Vmax = V₁",
+        "86": "Tỉ lệ nghịch với n",
+        "87": "4,1.10⁶ m/s",
+        "88": "1/λ₃₁ = 1/λ₃₂ + 1/λ₂₁",
+        "89": "0,2 m.",
+        "90": "Không phụ thuộc vào các tác động bên ngoài",
+        "91": "Chỉ phát huy tác dụng trong phạm vi kích thích thức hạt nhân",
+        "92": "Bán kính như nhau",
+        "93": "Êlectron",
+        "94": "Số nuclôn",
+        "95": "Không liên quan đến có êlectron ở lớp vỏ nguyên tử",
+        "96": "7,6.10⁷ m/s",
+        "97": "⁹₄Be",
+        "98": "6,8.10¹¹ J",
+        "99": "103 μg.",
+        "100": "3/2"
+
+    }
+]
