@@ -74,15 +74,15 @@ class _quizpageState extends State<quizpage> {
   Color right = Colors.green;
   Color wrong = Colors.red;
   int marks = 0;
-  int i = 0;
+  int i = 0;  // thứ tự câu hỏi từ JSON từ 0 đến 100
   bool disableAnswer = false;
-  // extra varibale to iterate
-  int j = 1;
+  // extra varibale to iterate (biến phụ để lặp)
+  int j = 1;  // thứ tự câu từ 1 đến 20
   int timer = 30;
   String showtimer = "30";
   var random_array;
 
-  Map<String, Color> btncolor = {
+  Map<String, Color> btncolor = { //màu của 4 đáp án
     "a": Colors.indigoAccent,
     "b": Colors.indigoAccent,
     "c": Colors.indigoAccent,
@@ -99,7 +99,7 @@ class _quizpageState extends State<quizpage> {
     var distinctIds = [];
     var rand = new Random();
       for (int i = 0; ;) {
-      distinctIds.add(rand.nextInt(101)); //giới hạn số câu lấy random
+      distinctIds.add(rand.nextInt(101)); //giới hạn số câu lấy random trong all file json
         random_array = distinctIds.toSet().toList();
         if(random_array.length < 20){   // số câu hỏi muốn có
           continue;
@@ -175,8 +175,8 @@ class _quizpageState extends State<quizpage> {
       btncolor["a"] = Colors.indigoAccent;
       btncolor["b"] = Colors.indigoAccent;
       btncolor["c"] = Colors.indigoAccent;
-      btncolor["d"] = Colors.indigoAccent;
-      disableAnswer = false;
+      btncolor["d"] = Colors.indigoAccent; // điều kiện để trở về 4 màu cũ, bỏ đi sẽ bị lưu màu đáp án vừa chọn
+      disableAnswer = false;  // điều kiện để chọn đáp án sau, nếu bỏ sẽ ko chọn đc đáp án câu next
     });
     starttimer();
   }
@@ -233,6 +233,7 @@ class _quizpageState extends State<quizpage> {
         highlightColor: Colors.indigo[700],
         minWidth: 200.0,
         height: 45.0,
+
         shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
@@ -385,15 +386,57 @@ class _quizpageState extends State<quizpage> {
                       ],
                     )
                 ),
-                child: Text(
-                  mydata[0][i.toString()],
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontFamily: "roboto",
-                  ),
-                  maxLines: 100,
-                ),
-              ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                //  AutoSizeText(
+                //   "Câu $j: ",
+                //   style: TextStyle(
+                //     fontSize: 20,
+                //     fontFamily: "roboto",
+                //     fontWeight: FontWeight.w500
+                //   ),
+                //   maxLines: 100,
+                // ),
+                //  AutoSizeText(
+                //     // "Câu $j: " +
+                //         mydata[0][i.toString()],
+                //   style: TextStyle(
+                //     fontSize: 17,
+                //     fontFamily: "roboto",
+                //     // fontWeight: FontWeight.w500
+                //   ),
+                //   maxLines: 100,
+                // ),
+                    RichText(
+                      text: TextSpan(
+                        // text: "Câu $j: ",
+                        // style: TextStyle(
+                        //     fontSize: 20,
+                        //     fontFamily: "roboto",
+                        //     fontWeight: FontWeight.w500
+                        // ),
+                        children: <TextSpan>[
+
+                          TextSpan(text: "Câu $j: ",
+                            style: TextStyle(
+                                fontSize: 18,
+                                fontFamily: "roboto",
+                                fontWeight: FontWeight.w500,
+                                color: Colors.black
+
+                            ),),
+                          TextSpan(text: mydata[0][i.toString()],
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontFamily: "roboto",
+                                color: Colors.black
+                              // fontWeight: FontWeight.w500
+                            ),),
+                        ],
+                      ),
+                    )
+        ]    )    ),
             // )])))
     ),
         // Container(
