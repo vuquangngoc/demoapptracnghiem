@@ -99,55 +99,155 @@ class _resultpageState extends State<resultpage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                OutlineButton(
+                // OutlineButton(
+                //
+                //   onPressed: () {
+                //     Future.delayed(Duration(seconds: 4),
+                //             () =>
+                //                 Navigator.of(context).pushReplacement(MaterialPageRoute(
+                //       builder: (context) => homepage(),
+                //     )));
+                //
+                //
+                //    // Navigator.of(context).popUntil((route) => route.isFirst); // ko hoạt động
+                //
+                //
+                //     final snackBar = SnackBar(
+                //       content: const Text('Nếu kết quả chưa được tốt hãy cố gắng vào lần sau 🤗', style: TextStyle(fontSize: 13.5)),
+                //
+                //       behavior: SnackBarBehavior.floating,
+                //       shape: RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(24),
+                //       ),
+                //       backgroundColor: Colors.blue,
+                //     );
+                //     ScaffoldMessenger.of(context)
+                //         .showSnackBar(snackBar);
+                //   },
+                //   // child: Text(
+                //   //   "Continue",
+                //   //   style: TextStyle(
+                //   //     fontSize: 18.0,
+                //   //   ),
+                //   // ),
+                //   child: Icon(Icons.home,size: 40,),
+                //   padding: EdgeInsets.symmetric(
+                //     vertical: 5.0,
+                //     horizontal: 35.0,
+                //
+                //
+                //   ),
+                //   borderSide: BorderSide(width: 3.0, color: Colors.indigo),
+                //   splashColor: Colors.indigoAccent,
+                //
+                //
+                //
+                // )
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
 
-                  onPressed: () {
-                    Future.delayed(Duration(seconds: 4),
-                            () =>
-                                Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => homepage(),
-                    )));
-
-
-                   // Navigator.of(context).popUntil((route) => route.isFirst); // ko hoạt động
-
-
-                    final snackBar = SnackBar(
-                      content: const Text('Nếu kết quả chưa được tốt hãy cố gắng vào lần sau 🤗', style: TextStyle(fontSize: 13.5)),
-
-                      behavior: SnackBarBehavior.floating,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(24),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        width: 120,
+                        height: 45,
+                        color: Colors.orangeAccent,
+                        child: TextButton(
+                          child: const Text('Xem lại kết quả'),
+                          style: TextButton.styleFrom(
+                            primary: Colors.white,
+                            backgroundColor: Colors.amber,
+                            onSurface: Colors.grey,
+                          ),
+                          onPressed: () {
+                            showAlertDialog1(context);
+                          },
+                        ),
                       ),
-                      backgroundColor: Colors.blue,
-                    );
-                    ScaffoldMessenger.of(context)
-                        .showSnackBar(snackBar);
-                  },
-                  // child: Text(
-                  //   "Continue",
-                  //   style: TextStyle(
-                  //     fontSize: 18.0,
-                  //   ),
-                  // ),
-                  child: Icon(Icons.home,size: 40,),
-                  padding: EdgeInsets.symmetric(
-                    vertical: 5.0,
-                    horizontal: 35.0,
+                    ),
+                    SizedBox(height: 20,width: 20,),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        width: 120,
+                        height: 45,
+                        color: Colors.orangeAccent,
+                        child: TextButton(
+                          child: const Text('TRANG CHỦ'),
+                          style: TextButton.styleFrom(
+                            primary: Colors.white,
+                            backgroundColor: Colors.lightBlueAccent,
+                            onSurface: Colors.grey,
+                          ),
+                          onPressed: () {
+                            Future.delayed(Duration(seconds: 4),
+                                    () =>
+                                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                                      builder: (context) => homepage(),
+                                    )));
 
 
-                  ),
-                  borderSide: BorderSide(width: 3.0, color: Colors.indigo),
-                  splashColor: Colors.indigoAccent,
+                            // Navigator.of(context).popUntil((route) => route.isFirst); // ko hoạt động
 
 
+                            final snackBar = SnackBar(
+                              content: const Text('Nếu kết quả chưa được tốt hãy cố gắng vào lần sau 🤗', style: TextStyle(fontSize: 13.5)),
 
+                              behavior: SnackBarBehavior.floating,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                              backgroundColor: Colors.blue,
+                            );
+                            ScaffoldMessenger.of(context)
+                                .showSnackBar(snackBar);
+                          },
+                        ),
+                      ),
+                    ),
+                  ],
                 )
               ],
             ),
           )
         ],
       ),
+    );
+  }
+  showAlertDialog1(BuildContext context) {
+
+    // cài button
+    Widget okButton = TextButton(
+      child: Text("OK",
+        style: TextStyle(fontSize: 15),),
+      onPressed: () {
+        Navigator.of(context).pop();
+      },
+    );
+
+    // thiết kế AlertDialog - bảng thông báo
+    AlertDialog alert = AlertDialog(
+      // title: Text("Lưu ý:"),
+      content: Text("Tính năng đang được thử nghiệm",
+        style: TextStyle(
+          fontSize: 17,
+          // fontWeight: FontWeight.bold,
+          color: Colors.black,
+          fontFamily: "Roboto",
+        ),),
+      actions: [
+        okButton,
+      ],
+
+    );
+
+    // show the dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
 }
