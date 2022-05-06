@@ -229,7 +229,7 @@ class _resultpageState extends State<resultpage> {
     // thiết kế AlertDialog - bảng thông báo
     AlertDialog alert = AlertDialog(
       // title: Text("Lưu ý:"),
-      content: Text("Tính năng đang được thử nghiệm",
+      content: Text("Tính năng đang trong quá trình phát triển",
         style: TextStyle(
           fontSize: 17,
           // fontWeight: FontWeight.bold,
