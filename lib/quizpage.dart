@@ -74,15 +74,16 @@ class _quizpageState extends State<quizpage> {
   Color right = Colors.green;
   Color wrong = Colors.red;
   int marks = 0;
-  int i = 0;  // thứ tự câu hỏi từ JSON từ 0 đến 100
+  int i = 0; // thứ tự câu hỏi từ JSON từ 0 đến 100
   bool disableAnswer = false;
   // extra varibale to iterate (biến phụ để lặp)
-  int j = 1;  // thứ tự câu từ 1 đến 20
+  int j = 1; // thứ tự câu từ 1 đến 20
   int timer = 30;
   String showtimer = "30";
-  var random_array;
+  var random_array; // đây chỉ là tên
 
-  Map<String, Color> btncolor = { //màu của 4 đáp án
+  Map<String, Color> btncolor = {
+    //màu của 4 đáp án
     "a": Colors.indigoAccent,
     "b": Colors.indigoAccent,
     "c": Colors.indigoAccent,
@@ -95,19 +96,21 @@ class _quizpageState extends State<quizpage> {
   // to create the array elements randomly use the dart:math module
   // -----     CODE TO GENERATE ARRAY RANDOMLY
 
-  genrandomarray(){
+  genrandomarray() {
     var distinctIds = [];
     var rand = new Random();
-      for (int i = 0; ;) {
-      distinctIds.add(rand.nextInt(101)); //giới hạn số câu lấy random trong all file json
-        random_array = distinctIds.toSet().toList();
-        if(random_array.length < 20){   // số câu hỏi muốn có
-          continue;
-        }else{
-          break;
-        }
+    for (int i = 0;;) {
+      distinctIds.add(
+          rand.nextInt(101)); //giới hạn số câu lấy random trong all file json
+      random_array = distinctIds.toSet().toList();
+      if (random_array.length < 20) {
+        // số câu hỏi muốn có
+        continue;
+      } else {
+        break;
       }
-      print(random_array);
+    }
+    print(random_array);
   }
 
   //   var random_array;
@@ -164,7 +167,8 @@ class _quizpageState extends State<quizpage> {
     canceltimer = false;
     timer = 30;
     setState(() {
-      if (j < 20) { // điều kiện để chọn số câu kết thúc ra điểm
+      if (j < 20) {
+        // điều kiện để chọn số câu kết thúc ra điểm, j<20 tức j=19 => j++=20
         i = random_array[j];
         j++;
       } else {
@@ -175,14 +179,15 @@ class _quizpageState extends State<quizpage> {
       btncolor["a"] = Colors.indigoAccent;
       btncolor["b"] = Colors.indigoAccent;
       btncolor["c"] = Colors.indigoAccent;
-      btncolor["d"] = Colors.indigoAccent; // điều kiện để trở về 4 màu cũ, bỏ đi sẽ bị lưu màu đáp án vừa chọn
-      disableAnswer = false;  // điều kiện để chọn đáp án sau, nếu bỏ sẽ ko chọn đc đáp án câu next
+      btncolor["d"] = Colors
+          .indigoAccent; // điều kiện để trở về 4 màu cũ, bỏ đi sẽ bị lưu màu đáp án vừa chọn
+      disableAnswer =
+          false; // điều kiện để chọn đáp án sau, nếu bỏ sẽ ko chọn đc đáp án câu next
     });
     starttimer();
   }
 
   void checkanswer(String k) {
-    
     // in the previous version this was
     // mydata[2]["1"] == mydata[1]["1"][k]
     // which i forgot to change
@@ -209,8 +214,8 @@ class _quizpageState extends State<quizpage> {
     Timer(Duration(seconds: 2), nextquestion);
   }
 
-
-  Widget choicebutton(String k) {      // widget ô đáp án
+  Widget choicebutton(String k) {
+    // widget ô đáp án
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 10.0,
@@ -233,7 +238,6 @@ class _quizpageState extends State<quizpage> {
         highlightColor: Colors.indigo[700],
         minWidth: 200.0,
         height: 45.0,
-
         shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
@@ -242,22 +246,25 @@ class _quizpageState extends State<quizpage> {
 
   @override
   Widget build(BuildContext context) {
-
     // SystemChrome.setPreferredOrientations(
     //     [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]); // định hướng thiết bị hướng xuống và lên
     // 2 dòng bỏ cũng đc
 
     return WillPopScope(
-
       // pop up thông báo không cho back
       onWillPop: () {
-        return showDialog(   //hiển thị hộp thoại
+        return showDialog(
+            //hiển thị hộp thoại
             context: context,
-            builder: (context) => AlertDialog(   //AlertDialog : hộp thoại cảnh báo
+            builder: (context) => AlertDialog(
+                  //AlertDialog : hộp thoại cảnh báo
                   title: Text(
                     "LƯU Ý:",
                   ),
-                  content: Text("Không thể quay lại khi đã bắt đầu bài thi !!!\n😝😝😝", style: TextStyle(fontSize: 21),),
+                  content: Text(
+                    "Không thể quay lại khi đã bắt đầu bài thi !!!\n😝😝😝",
+                    style: TextStyle(fontSize: 21),
+                  ),
                   actions: <Widget>[
                     FlatButton(
                       onPressed: () {
@@ -271,13 +278,9 @@ class _quizpageState extends State<quizpage> {
                 ));
       },
 
-
-
       child: Scaffold(
         body: Column(
-
           children: <Widget>[
-
 //             Expanded(
 //               flex: 1,
 //               child: Container(
@@ -332,22 +335,21 @@ class _quizpageState extends State<quizpage> {
                 // color: Colors.deepPurpleAccent,
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment.topRight,
-                      end: Alignment.bottomLeft,
-                      stops: [
-                        0.1,
-                        0.4,
-                        0.6,
-                        0.9,
-                      ],
-                      colors: [
-                        Colors.yellow,
-                        Colors.red,
-                        Colors.indigo,
-                        Colors.teal,
-                      ],
-                    )
-                ),
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomLeft,
+                  stops: [
+                    0.1,
+                    0.4,
+                    0.6,
+                    0.9,
+                  ],
+                  colors: [
+                    Colors.yellow,
+                    Colors.red,
+                    Colors.indigo,
+                    Colors.teal,
+                  ],
+                )),
                 alignment: Alignment.bottomCenter,
                 child: Container(
                   child: Text(
@@ -359,123 +361,122 @@ class _quizpageState extends State<quizpage> {
                       // color: Colors.white
                     ),
                   ),
-
-
                 ),
               ),
             ),
             Expanded(
               flex: 4,
-            // child: Material(
-            // elevation: 15.0,
-            // child: Container(
-            // child: Column(
-            // children: <Widget>[
-            // Material(
-              child: Container(
-                padding: EdgeInsets.all(15.0),
-                alignment: Alignment.center,
-                // color: Colors.yellowAccent[200],
-                decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topRight,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Colors.yellowAccent,
-                        Colors.deepOrange,
-                      ],
-                    )
-                ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                //  AutoSizeText(
-                //   "Câu $j: ",
-                //   style: TextStyle(
-                //     fontSize: 20,
-                //     fontFamily: "roboto",
-                //     fontWeight: FontWeight.w500
-                //   ),
-                //   maxLines: 100,
-                // ),
-                //  AutoSizeText(
-                //     // "Câu $j: " +
-                //         mydata[0][i.toString()],
-                //   style: TextStyle(
-                //     fontSize: 17,
-                //     fontFamily: "roboto",
-                //     // fontWeight: FontWeight.w500
-                //   ),
-                //   maxLines: 100,
-                // ),
-                    RichText(
-                      text: TextSpan(
-                        // text: "Câu $j: ",
-                        // style: TextStyle(
-                        //     fontSize: 20,
-                        //     fontFamily: "roboto",
-                        //     fontWeight: FontWeight.w500
-                        // ),
-                        children: <TextSpan>[
-
-                          TextSpan(text: "Câu $j: ",
-                            style: TextStyle(
-                                fontSize: 18,
-                                fontFamily: "roboto",
-                                fontWeight: FontWeight.w500,
-                                color: Colors.black
-
-                            ),),
-                          TextSpan(text: mydata[0][i.toString()],
-                            style: TextStyle(
-                                fontSize: 17,
-                                fontFamily: "roboto",
-                                color: Colors.black
-                              // fontWeight: FontWeight.w500
-                            ),),
+              // child: Material(
+              // elevation: 15.0,
+              // child: Container(
+              // child: Column(
+              // children: <Widget>[
+              // Material(
+              child: Material(
+                  elevation: 18.0,
+                  child: Container(
+                      padding: EdgeInsets.all(15.0),
+                      alignment: Alignment.center,
+                      // color: Colors.yellowAccent[200],
+                      decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.bottomLeft,
+                        colors: [
+                          Colors.yellowAccent,
+                          Colors.deepOrange,
                         ],
-                      ),
-                    )
-        ]    )    ),
-            // )])))
-    ),
-        // Container(
-        //   decoration: BoxDecoration(
-        //     image: DecorationImage(
-        //       image: NetworkImage(
-        //           "https://i.pinimg.com/originals/5b/4c/d2/5b4cd292f6f382ab8d8a51b9fcaad5ed.jpg"),
-        //       fit: BoxFit.fitWidth,
-        //     ),
-        //   ),
-        //   child:
-             Expanded(
-                flex: 5,
-                child: AbsorbPointer(
+                      )),
+                      child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            //  AutoSizeText(
+                            //   "Câu $j: ",
+                            //   style: TextStyle(
+                            //     fontSize: 20,
+                            //     fontFamily: "roboto",
+                            //     fontWeight: FontWeight.w500
+                            //   ),
+                            //   maxLines: 100,
+                            // ),
+                            //  AutoSizeText(
+                            //     // "Câu $j: " +
+                            //         mydata[0][i.toString()],
+                            //   style: TextStyle(
+                            //     fontSize: 17,
+                            //     fontFamily: "roboto",
+                            //     // fontWeight: FontWeight.w500
+                            //   ),
+                            //   maxLines: 100,
+                            // ),
+                            RichText(
+                              maxLines: 100,
+                              text: TextSpan(
+                                // text: "Câu $j: ",
+                                // style: TextStyle(
+                                //     fontSize: 20,
+                                //     fontFamily: "roboto",
+                                //     fontWeight: FontWeight.w500
+                                // ),
 
-                  absorbing: disableAnswer,
-                    child: Container(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        choicebutton('a'),
-                        choicebutton('b'),
-                        choicebutton('c'),
-                        choicebutton('d'),
-                        // Image.network(
-                        //   'https://miro.medium.com/max/1000/1*65RydaEZ7uy5YPTg9cxV8Q.gif',
-                        //   width: 80,
-                        //   height: 80,
-                        //   fit: BoxFit.contain,
-                        // )
-                        Image.asset('assets/2222.gif', width: 80,height: 80),
-
-                      ],
-                    ),
+                                children: <TextSpan>[
+                                  TextSpan(
+                                    text: "Câu $j: ",
+                                    style: TextStyle(
+                                        fontSize: 18,
+                                        fontFamily: "roboto",
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.black),
+                                  ),
+                                  TextSpan(
+                                    text: mydata[0][i.toString()],
+                                    style: TextStyle(
+                                        fontSize: 17,
+                                        fontFamily: "roboto",
+                                        color: Colors.black
+                                        // fontWeight: FontWeight.w500
+                                        ),
+                                  ),
+                                ],
+                              ),
+                            )
+                          ]))),
+              // )])))
+            ),
+            // Container(
+            //   decoration: BoxDecoration(
+            //     image: DecorationImage(
+            //       image: NetworkImage(
+            //           "https://i.pinimg.com/originals/5b/4c/d2/5b4cd292f6f382ab8d8a51b9fcaad5ed.jpg"),
+            //       fit: BoxFit.fitWidth,
+            //     ),
+            //   ),
+            //   child:
+            Expanded(
+              flex: 5,
+              child: AbsorbPointer(
+                absorbing: disableAnswer,
+                child: Container(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      choicebutton('a'),
+                      choicebutton('b'),
+                      choicebutton('c'),
+                      choicebutton('d'),
+                      // Image.network(
+                      //   'https://miro.medium.com/max/1000/1*65RydaEZ7uy5YPTg9cxV8Q.gif',
+                      //   width: 80,
+                      //   height: 80,
+                      //   fit: BoxFit.contain,
+                      // )
+                      Image.asset('assets/2222.gif', width: 80, height: 80),
+                    ],
                   ),
                 ),
-             // )
-      ),
-
+              ),
+              // )
+            ),
 
             // Expanded(
             //   flex: 1,
