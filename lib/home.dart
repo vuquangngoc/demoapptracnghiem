@@ -18,7 +18,7 @@ class _homepageState extends State<homepage> {
   ];
 
   List<String> des = [
-    "Để tăng tốc khả năng tính toán , hãy chuẩn bị sẵn máy tính và giấy bút cùng một cái đầu lạnh.\nLưu ý: Mỗi câu hỏi chỉ có 30 giây nên hãy cố gắng !",
+    "Để tăng tốc khả năng tính toán , hãy chuẩn bị sẵn máy tính và giấy bút cùng một cái đầu lạnh.\nLưu ý: Mỗi câu hỏi chỉ có 60 giây nên hãy cố gắng !",
     "Vật lý là một môn học không khó mà cũng không dễ dàng\nHãy nắm chắc kiến thức trong đầu và máy tính CASIO trên tay để bước vào bài thi",
     "Hóa học là môn học đòi hỏi tư duy cao và phản xạ nhanh, linh hoạt.\n Hãy chuẩn bị sẵn combo bảng tuần hoàn + máy tính + giấy nháp để sẵn sàng bước vào những câu hỏi đầu tiên nào!",
     "Tiếng Anh là ngôn ngữ phổ biến nhất thế giới nên việc học Tiếng Anh là rất cần thiết cho tương lai mỗi người",
@@ -240,7 +240,7 @@ class _homepageState extends State<homepage> {
     // thiết kế AlertDialog - bảng thông báo
     AlertDialog alert = AlertDialog(
       title: Text("Lưu ý:"),
-      content: Text("Mỗi lần thi sẽ bao gồm 20 câu hỏi .\nMỗi câu hỏi có 30 giây để chọn ứng với mỗi đáp án là 5 điểm.\nNếu hết thời gian thí sinh không chọn đáp án thì câu hỏi đó sẽ không tính điểm !",
+      content: Text("Mỗi lần thi sẽ bao gồm 20 câu hỏi .\nMỗi câu hỏi có 60 giây để chọn ứng với mỗi đáp án là 5 điểm.\nNếu hết thời gian thí sinh không chọn đáp án thì câu hỏi đó sẽ không tính điểm !",
         style: TextStyle(
           fontSize: 17,
           // fontWeight: FontWeight.bold,
