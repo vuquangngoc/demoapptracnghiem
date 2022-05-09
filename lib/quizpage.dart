@@ -78,8 +78,10 @@ class _quizpageState extends State<quizpage> {
   bool disableAnswer = false;
   // extra varibale to iterate (biến phụ để lặp)
   int j = 1; // thứ tự câu từ 1 đến 20
-  int timer = 30;
-  String showtimer = "30";
+
+  int timer = 60; // số giây câu 1 đếm ngược , nếu để 30s câu 1 sẽ bắt đầu từ 30s
+  // String showtimer = "30";
+  String showtimer = "60"; // số đầu tiên hiên nên ở câu 1 , nếu để 40 sẽ đếm ngc 40 59 58 ...
   var random_array; // đây chỉ là tên
 
   Map<String, Color> btncolor = {
@@ -165,7 +167,7 @@ class _quizpageState extends State<quizpage> {
 
   void nextquestion() {
     canceltimer = false;
-    timer = 30;
+    timer = 60; // số giây từng câu hỏi
     setState(() {
       if (j < 20) {
         // điều kiện để chọn số câu kết thúc ra điểm, j<20 tức j=19 => j++=20
