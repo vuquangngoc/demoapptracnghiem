@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quizstar/quizpage.dart';
 // import 'package:device_preview/device_preview.dart';
+import 'package:audioplayers/audioplayers.dart';
 class homepage extends StatefulWidget {
+
   @override
   _homepageState createState() => _homepageState();
 }
@@ -25,6 +27,8 @@ class _homepageState extends State<homepage> {
     "Sinh học là môn học khá khó học với một số bạn nhưng nếu các bạn tìm hiểu và mầy mò học hỏi tìm tòi thì có thế các bạn sẽ yêu môn học này đó",
   ];
 
+
+
   Widget customcard(String langname, String image, String des){
     return Padding(                //căn lề khoảng cách
       padding: EdgeInsets.symmetric(
@@ -39,6 +43,8 @@ class _homepageState extends State<homepage> {
             // for a particular language
             builder: (context) => getjson(langname),
           ));
+          final player = AudioCache();
+          player.play('letsgo.mp3',mode: PlayerMode.LOW_LATENCY,);
         },
         child: Material(
           color: Colors.indigoAccent,
@@ -180,6 +186,11 @@ class _homepageState extends State<homepage> {
           customcard("Hóa học", images[2], des[2]),
           customcard("Tiếng Anh", images[3], des[3]),
           customcard("Sinh học", images[4], des[4]),
+      // FlatButton(onPressed: (){
+      //   final player = AudioCache();
+      //   player.play('Pikachu.mp3',mode: PlayerMode.LOW_LATENCY,);
+      // }, child: Text('MUSIC'))
+
       // const Text(
       //   "Nếu bạn có thắc mắc hay bất kỳ câu hỏi gì về ứng dụng hãy liên hệ đến số điện thoại 0904892301 để được tiếp nhận đóng góp phát triển ứng dụng",
       //   style: TextStyle(
@@ -216,6 +227,8 @@ class _homepageState extends State<homepage> {
         // nút đứng im 1 góc
       onPressed: (){
         showAlertDialog(context);   //showAlertDialog chỉ là tên
+        // final player = AudioCache();
+        // player.play('Pikachu.mp3',mode: PlayerMode.LOW_LATENCY,);
       },
       tooltip: 'Increment', //có thể bỏ
       child: const Icon(Icons.announcement_outlined,),

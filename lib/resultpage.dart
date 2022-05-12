@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:quizstar/home.dart';
 
@@ -189,7 +190,8 @@ class _resultpageState extends State<resultpage> {
 
 
                             // Navigator.of(context).popUntil((route) => route.isFirst); // ko hoạt động
-
+                            final player = AudioCache();
+                            player.play('try-again.mp3',mode: PlayerMode.LOW_LATENCY,);
 
                             final snackBar = SnackBar(
                               content: const Text('Nếu kết quả chưa được tốt hãy cố gắng vào lần sau 🤗', style: TextStyle(fontSize: 13.5)),
