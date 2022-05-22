@@ -11,9 +11,9 @@ class resultpage extends StatefulWidget {
 
 class _resultpageState extends State<resultpage> {
   List<String> images = [
-    "images/success.png",
-    "images/good.png",
-    "images/bad.png",
+    "images/success.gif",
+    "images/good1.gif",
+    "images/bad.gif",
   ];
 
   String message;
@@ -191,7 +191,7 @@ class _resultpageState extends State<resultpage> {
 
                             // Navigator.of(context).popUntil((route) => route.isFirst); // ko hoạt động
                             final player = AudioCache();
-                            player.play('try-again.mp3',mode: PlayerMode.LOW_LATENCY,);
+                            player.play('tryagain1.mp3',mode: PlayerMode.LOW_LATENCY,);
 
                             final snackBar = SnackBar(
                               content: const Text('Nếu kết quả chưa được tốt hãy cố gắng vào lần sau 🤗', style: TextStyle(fontSize: 13.5)),
