@@ -43,8 +43,8 @@ class _homepageState extends State<homepage> {
             // for a particular language
             builder: (context) => getjson(langname),
           ));
-          final player = AudioCache();
-          player.play('letsgo.mp3',mode: PlayerMode.LOW_LATENCY,);
+          //final player = AudioCache();
+          //player.play('letsgo.mp3',mode: PlayerMode.LOW_LATENCY,);
         },
         child: Material(
           color: Colors.indigoAccent,
