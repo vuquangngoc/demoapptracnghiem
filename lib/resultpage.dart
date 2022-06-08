@@ -4,9 +4,9 @@ import 'package:quizstar/home.dart';
 
 class resultpage extends StatefulWidget {
   int marks;
-  resultpage({Key key, @required this.marks}) : super(key: key);
+  resultpage({Key? key, required this.marks}) : super(key: key);
   @override
-  _resultpageState createState() => _resultpageState(marks);
+  _resultpageState createState() => _resultpageState();
 }
 
 class _resultpageState extends State<resultpage> {
@@ -16,29 +16,26 @@ class _resultpageState extends State<resultpage> {
     "images/bad.gif",
   ];
 
-  String message;
-  String image;
+  String message = '';
+  String image = '';
 
   @override
   void initState() {
-    if (marks < 40) {
+    if (widget.marks < 40) {
       image = images[2];
       message =
-          "Bạn nên cố gắng hơn\n" + "Điểm của bạn là $marks trên 100 điểm";
-    } else if (marks < 70) {
+          "Bạn nên cố gắng hơn\n" + "Điểm của bạn là ${widget.marks} trên 100 điểm";
+    } else if (widget.marks < 70) {
       image = images[1];
       message =
-          "Bạn có thể làm tốt hơn\n" + "Điểm của bạn là $marks trên 100 điểm";
+          "Bạn có thể làm tốt hơn\n" + "Điểm của bạn là ${widget.marks} trên 100 điểm";
     } else {
       image = images[0];
       message =
-          "Kết quả của bạn thật xuất sắc\n" + "Điểm của bạn là $marks trên 100 điểm";
+          "Kết quả của bạn thật xuất sắc\n" + "Điểm của bạn là ${widget.marks} trên 100 điểm";
     }
     super.initState();
   }
-
-  int marks;
-  _resultpageState(this.marks);
 
   @override
   Widget build(BuildContext context) {

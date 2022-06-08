@@ -5,7 +5,6 @@ import 'package:device_preview/device_preview.dart';
 //import 'package:audioplayers/audioplayers.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
-import 'package:unicorndial/unicorndial.dart';
 class homepage extends StatefulWidget {
 
   @override
@@ -43,7 +42,7 @@ class _homepageState extends State<homepage> {
         onTap: (){
           Navigator.of(context).pushReplacement(MaterialPageRoute(
             // in changelog 1 we will pass the langname name to ther other widget class
-            // this name will be used to open a particular JSON file 
+            // this name will be used to open a particular JSON file
             // for a particular language
             builder: (context) => getjson(langname),
           ));
@@ -122,75 +121,75 @@ class _homepageState extends State<homepage> {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitDown, DeviceOrientation.portraitUp
     ]);
-var childButtons = List<UnicornButton>();
-
-    childButtons.add(UnicornButton(
-        hasLabel: true,
-        labelText: "Lưu ý",
-        currentButton: FloatingActionButton(
-          heroTag: "noti",
-          backgroundColor: Colors.green,
-          mini: true,
-          child: Icon(Icons.announcement_outlined),
-          onPressed: () {
-            showAlertDialog(context);
-          },
-        )));
-childButtons.add(UnicornButton(
-        labelText: "Facebook",
-        hasLabel: true,
-        currentButton: FloatingActionButton(
-            heroTag: "facebook",
-            backgroundColor: Colors.blueAccent,
-            mini: true,
-            child: Icon(Icons.facebook),
-          onPressed: () async {
-            String url5 = "https://m.me/vuquangngoc1309/";
-            var urllaunchable = await canLaunch(url5); //canLaunch is from url_launcher package
-            if(urllaunchable){
-              await launch(url5); //launch is from url_launcher package to launch URL
-            }else{
-              print("URL can't be launched.");
-            }
-          },
-        )));
-
-    childButtons.add(UnicornButton(
-        labelText: "Telegram",
-        hasLabel: true,
-        currentButton: FloatingActionButton(
-            heroTag: "telegram",
-            backgroundColor: Colors.lightBlue,
-            mini: true,
-            child: Icon(Icons.wifi_tethering_sharp),
-          onPressed: () async {
-            String url2 = "https://t.me/Vuquangngoc";
-            var urllaunchable = await canLaunch(url2); //canLaunch is from url_launcher package
-            if(urllaunchable){
-              await launch(url2); //launch is from url_launcher package to launch URL
-            }else{
-              print("URL can't be launched.");
-            }
-          },)));
-
-    childButtons.add(UnicornButton(
-        labelText: "Hotline",
-        hasLabel: true,
-        currentButton: FloatingActionButton(
-            heroTag: "call",
-            backgroundColor: Colors.purpleAccent,
-            mini: true,
-            child: Icon(Icons.phone_enabled),
-          onPressed: () async {
-            final String telephoneNumber = "0904892301";
-            String telephoneUrl = "tel:$telephoneNumber";
-            if (await canLaunch(telephoneUrl)) {
-              await launch(telephoneUrl);
-            } else {
-              throw "Can't phone that number.";
-            }
-          },
-        )));
+// final childButtons = <UnicornButton>[];
+//
+//     childButtons.add(UnicornButton(
+//         hasLabel: true,
+//         labelText: "Lưu ý",
+//         currentButton: FloatingActionButton(
+//           heroTag: "noti",
+//           backgroundColor: Colors.green,
+//           mini: true,
+//           child: Icon(Icons.announcement_outlined),
+//           onPressed: () {
+//             showAlertDialog(context);
+//           },
+//         )));
+// childButtons.add(UnicornButton(
+//         labelText: "Facebook",
+//         hasLabel: true,
+//         currentButton: FloatingActionButton(
+//             heroTag: "facebook",
+//             backgroundColor: Colors.blueAccent,
+//             mini: true,
+//             child: Icon(Icons.facebook),
+//           onPressed: () async {
+//             String url5 = "https://m.me/vuquangngoc1309/";
+//             var urllaunchable = await canLaunch(url5); //canLaunch is from url_launcher package
+//             if(urllaunchable){
+//               await launch(url5); //launch is from url_launcher package to launch URL
+//             }else{
+//               print("URL can't be launched.");
+//             }
+//           },
+//         )));
+//
+//     childButtons.add(UnicornButton(
+//         labelText: "Telegram",
+//         hasLabel: true,
+//         currentButton: FloatingActionButton(
+//             heroTag: "telegram",
+//             backgroundColor: Colors.lightBlue,
+//             mini: true,
+//             child: Icon(Icons.wifi_tethering_sharp),
+//           onPressed: () async {
+//             String url2 = "https://t.me/Vuquangngoc";
+//             var urllaunchable = await canLaunch(url2); //canLaunch is from url_launcher package
+//             if(urllaunchable){
+//               await launch(url2); //launch is from url_launcher package to launch URL
+//             }else{
+//               print("URL can't be launched.");
+//             }
+//           },)));
+//
+//     childButtons.add(UnicornButton(
+//         labelText: "Hotline",
+//         hasLabel: true,
+//         currentButton: FloatingActionButton(
+//             heroTag: "call",
+//             backgroundColor: Colors.purpleAccent,
+//             mini: true,
+//             child: Icon(Icons.phone_enabled),
+//           onPressed: () async {
+//             final String telephoneNumber = "0904892301";
+//             String telephoneUrl = "tel:$telephoneNumber";
+//             if (await canLaunch(telephoneUrl)) {
+//               await launch(telephoneUrl);
+//             } else {
+//               throw "Can't phone that number.";
+//             }
+//           },
+//         )));
     return Scaffold(
 
       // appBar: AppBar(

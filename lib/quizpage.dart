@@ -8,10 +8,10 @@ import 'package:auto_size_text/auto_size_text.dart';
 
 class getjson extends StatelessWidget {
   // accept the langname as a parameter
+  getjson(this.langname);
 
   String langname;
-  getjson(this.langname);
-  String assettoload;
+  String assettoload = '';
 
   // a function
   // sets the asset to a particular JSON file
@@ -40,8 +40,7 @@ class getjson extends StatelessWidget {
       future:
           DefaultAssetBundle.of(context).loadString(assettoload, cache: false),
       builder: (context, snapshot) {
-        List mydata = json.decode(snapshot.data.toString());
-        if (mydata == null) {
+        if (!snapshot.hasData) {
           return Scaffold(
             body: Center(
               child: Text(
@@ -49,9 +48,21 @@ class getjson extends StatelessWidget {
               ),
             ),
           );
-        } else {
-          return quizpage(mydata: mydata);
         }
+
+        if (snapshot.data == null || snapshot.data.toString().isEmpty) {
+          return Scaffold(
+            body: Center(
+              child: Text(
+                "Không có dữ liệu",
+              ),
+            ),
+          );
+        }
+
+        final myData = json.decode(snapshot.data.toString());
+
+        return quizpage(mydata: myData);
       },
     );
   }
@@ -61,7 +72,7 @@ class quizpage extends StatefulWidget {
   // var mydata;
   final List mydata;
 
-  quizpage({Key key, @required this.mydata}) : super(key: key);
+  quizpage({Key? key, required this.mydata}) : super(key: key);
   @override
   _quizpageState createState() => _quizpageState(mydata);
 }
@@ -241,7 +252,7 @@ class _quizpageState extends State<quizpage> {
         minWidth: 200.0,
         height: 45.0,
         shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
   }
@@ -254,8 +265,8 @@ class _quizpageState extends State<quizpage> {
 
     return WillPopScope(
       // pop up thông báo không cho back
-      onWillPop: () {
-        return showDialog(
+      onWillPop: () async {
+        showDialog(
             //hiển thị hộp thoại
             context: context,
             builder: (context) => AlertDialog(
@@ -278,6 +289,8 @@ class _quizpageState extends State<quizpage> {
                     )
                   ],
                 ));
+
+        return false;
       },
 
       child: Scaffold(
