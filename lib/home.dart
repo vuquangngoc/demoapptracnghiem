@@ -122,7 +122,7 @@ class _homepageState extends State<homepage> {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitDown, DeviceOrientation.portraitUp
     ]);
-var childButtons = List<UnicornButton>();
+    final childButtons = <UnicornButton>[];
 
     childButtons.add(UnicornButton(
         hasLabel: true,
@@ -295,18 +295,23 @@ childButtons.add(UnicornButton(
         //     ]
         // )
 
-      floatingActionButton: FloatingActionButton(
-        // backgroundColor: Colors.orange,
-        // nút đứng im 1 góc
-      onPressed: (){
-        showAlertDialog(context);   //showAlertDialog chỉ là tên
-        // final player = AudioCache();
-        // player.play('Pikachu.mp3',mode: PlayerMode.LOW_LATENCY,);
-      },
-      tooltip: 'Increment', //có thể bỏ
-      child: const Icon(Icons.announcement_outlined,),
-    ),
-
+    //   floatingActionButton: FloatingActionButton(
+    //     // backgroundColor: Colors.orange,
+    //     // nút đứng im 1 góc
+    //   onPressed: (){
+    //     showAlertDialog(context);   //showAlertDialog chỉ là tên
+    //     // final player = AudioCache();
+    //     // player.play('Pikachu.mp3',mode: PlayerMode.LOW_LATENCY,);
+    //   },
+    //   tooltip: 'Increment', //có thể bỏ
+    //   child: const Icon(Icons.announcement_outlined,),
+    // ),
+      floatingActionButton: UnicornDialer(
+          backgroundColor: Color.fromRGBO(255, 255, 255, 0.6),
+          parentButtonBackground: Colors.lightBlue,
+          orientation: UnicornOrientation.VERTICAL,
+          parentButton: Icon(Icons.announcement_rounded),
+          childButtons: childButtons),
     );
   }
 
